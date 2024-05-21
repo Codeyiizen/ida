@@ -1,0 +1,38 @@
+/* FS Albert Extra Bold ------------------------*/
+@font-face {
+  font-family: 'FS Albert Extra Bold';
+  src: url('../fonts/fsalbextbol.eot');
+  src: url('../fonts/fsalbextbol.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fsalbextbol.woff2') format('woff2'),
+    url('../fonts/fsalbextbol.woff') format('woff'),
+    url('../fonts/fsalbextbol.ttf') format('truetype'),
+    url('../fonts/fsalbextbol.svg#fsalbextbol') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* AnmolLipi Regular ------------------------*/
+@font-face {
+  font-family: 'AnmolLipi';
+  src: url('../fonts/anmollipi.eot');
+  src: url('../fonts/anmollipi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/anmollipi.woff2') format('woff2'),
+    url('../fonts/anmollipi.woff') format('woff'),
+    url('../fonts/anmollipi.ttf') format('truetype'),
+    url('../fonts/anmollipi.svg#anmollipi') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Raavi ------------------------*/
+@font-face {
+  font-family: 'Raavi';
+  src: url('../fonts/raavi.eot');
+  src: url('../fonts/raavi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raavi.woff2') format('woff2'),
+    url('../fonts/raavi.woff') format('woff'),
+    url('../fonts/raavi.ttf') format('truetype'),
+    url('../fonts/raavi.svg#raavi') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
