@@ -28,45 +28,7 @@
     <!-- Container -->
     <div id="container">
         <!-- Header -->
-        <header id="header">
-            <div class="container">
-                <div class="row align-items-lg-center">
-                    <div class="col-lg-5 col-md-10">
-                        <div class="logo d-flex align-items-center">
-                            <a href="index.html">
-                                <img class="img-fluid rounded" src="assets/images/logo.png"
-                                    alt="Iron Deficiency Anaemia (IDA) Management">
-                            </a>
-                            <h4 class="mb-0 ml-3 d-inline-block text-white">Food Based Management System of
-                                Iron Deficiency Anaemia</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-2 d-lg-flex justify-content-lg-end align-items-lg-center">
-                        <div class="mobile-menu clearfix"></div>
-                        <nav id="main-menu">
-                            <ul class="list-unstyled">
-                                <li><a href="dashboard.html">Dashboard</a></li>
-                                <li><a href="contact-us.html">Language<i class="fas fa-angle-down ml-2"></i></a>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">ਪੰਜਾਬੀ</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                                <li class="brand d-lg-none"><img class="img-fluid mx-auto" src="assets/images/pau.png"
-                                        alt="Punjab Agricultural University"></li>
-                            </ul>
-                        </nav>
-                        <div class="brand d-lg-block d-none">
-                            <img class="img-fluid mx-auto" src="assets/images/pau.png"
-                                alt="Punjab Agricultural University">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- /Header -->
-        <!-- Content -->
+       @include('header')
         <div id="content">
             <section class="section">
                 <div class="container">
@@ -109,34 +71,7 @@
         </div>
         <!-- /Content -->
     </div>
-    <!-- /container-->
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <p>&copy; 2024 Food Based Management System of
-                        Iron Deficiency Anaemia</p>
-                </div>
-                <div class="col-lg-4 text-lg-right">
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="disclaimer.html">Disclaimer</a>
-                        </li>
-                        <li><a href="developed.html">Developed By</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
- <!-- Javascript -->
- <script src="assets/javascripts/jquery-1.11.2.min.js"></script>
- <script src="assets/javascripts/popper.js"></script>
- <script src="assets/javascripts/bootstrap.bundle.js"></script>
- <script src="assets/javascripts/bootstrap.js"></script>
- <script src="assets/javascripts/all.js"></script>
- <script src="assets/javascripts/meanmenu.js"></script>
- <!-- Custom JS Code for this page -->
- <script src="assets/javascripts/main.js"></script>
+   @include('footer')
 </body>
 
 </html>
