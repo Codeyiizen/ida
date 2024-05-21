@@ -28,7 +28,7 @@
         .login-section,
         .login-section>.container,
         .login-section>.container>.row {
-            min-height: calc(100vh - 146px);
+            min-height: calc(100vh - 167px);
         }
 
         .bg-pattern {

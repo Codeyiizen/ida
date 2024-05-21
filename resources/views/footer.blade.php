@@ -8,9 +8,9 @@
                 <div class="col-lg-4 text-lg-right">
                     <ul class="list-unstyled">
                         <li>
-                            <a href="disclaimer.html">Disclaimer</a>
+                            <a href="{{ route('disclaimer') }}">Disclaimer</a>
                         </li>
-                        <li><a href="developed.html">Developed By</a></li>
+                        <li><a href="{{ route('developed') }}">Developed By</a></li>
                     </ul>
                 </div>
             </div>
