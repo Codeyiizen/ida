@@ -11,7 +11,7 @@
                             <li class="breadcrumb-item" aria-current="page"><a
                                     href="{{ route('iron-deficiency-anaemia') }}">Iron
                                     Deficiency Anaemia</a></li>
-                            <li class="breadcrumb-item" aria-current="page"><a href="{{ route('smptoms-anaemia') }}">Symptoms of
+                            <li class="breadcrumb-item" aria-current="page"><a href="{{ route('symptoms-anaemia') }}">Symptoms of
                                     Anaemia</a></li>
                             <li class="breadcrumb-item active">Headaches</li>
                         </ol>
