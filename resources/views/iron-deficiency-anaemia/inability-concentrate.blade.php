@@ -5,11 +5,11 @@
         <div class="container clearfix">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent px-0">
-                    <li class="breadcrumb-item" aria-current="page"><a href="../dashboard.html">Dashboard</a>
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{ route('home') }}">Dashboard</a>
                     </li>
-                    <li class="breadcrumb-item" aria-current="page"><a href="../iron-deficiency-anaemia.html">Iron
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{ route('iron-deficiency-anaemia') }}">Iron
                             Deficiency Anaemia</a></li>
-                    <li class="breadcrumb-item" aria-current="page"><a href="smptoms-anaemia.html">Symptoms of
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{ route('smptoms-anaemia') }}">Symptoms of
                             Anaemia</a></li>
                     <li class="breadcrumb-item active">Inability to concentrate</li>
                 </ol>
