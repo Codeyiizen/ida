@@ -40,7 +40,7 @@
                             <p class="card-text">People who do not get nutrients like iron, vitamin B12, and
                                 folic acid through diet have a higher risk of iron deficiency anaemia... </p>
                             <div class="btn-container mt-auto mb-0">
-                                <a href="iron-deficiency-anaemia/causes-anaemia.html" class="btn btn-primary">Learn
+                                <a href="{{ route('causes-anaemia') }}" class="btn btn-primary">Learn
                                     More</a>
                             </div>
                         </div>
@@ -57,8 +57,8 @@
                             <p class="card-text">Both dizziness and tiredness is a common symptom of iron
                                 deficiency anaemia because the body's cells aren't getting enough ...</p>
                             <div class="btn-container mt-auto mb-0">
-                                <a href="iron-deficiency-anaemia/smptoms-anaemia.html" class="btn btn-primary">Learn
-                                    More</a>
+                                <a href="{{ route('symptoms-anaemia') }}" class="btn btn-primary">Learn
+                                    More</a>                                    
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                             <p class="card-text">Add a source of Vitamin C like tomato, orange juice, lemon,
                                 strawberries, or other vitamin c rich fruits and vegetables in your diet...</p>
                             <div class="btn-container mt-auto mb-0">
-                                <a href="iron-deficiency-anaemia/prevention-anaemia.html" class="btn btn-primary">Learn
+                                <a href="{{ route('prevention-anaemia') }}" class="btn btn-primary">Learn
                                     More</a>
                             </div>
                         </div>
