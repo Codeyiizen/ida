@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,19 +13,17 @@ use Illuminate\Support\Facades\Session;
 |
 */
 
-
 // Route::group(['prefix'=>'{local}'], function(){  
 //     Route::get('/', function () { 
 //         return view('welcome');
 //     })->middleware('setLocale');
 // });
 
-$sessionData = Session::get('data'); 
+
   Route::get('/', function () {
     $data = session('data');  
     return view('welcome');
 });
-
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
@@ -104,6 +100,8 @@ Route::get('sarvangasana', [App\Http\Controllers\HomeController::class, 'sarvang
 Route::get('surya-namaskar', [App\Http\Controllers\HomeController::class, 'suryaNamaskar'])->name('surya-namaskar');
 Route::get('viparita-karani', [App\Http\Controllers\HomeController::class, 'viparitaKarani'])->name('viparita-karani');
 
+
+
 Route::get('/getcooke', [App\Http\Controllers\HomeController::class, 'getcookie']);
 
 Route::get('lang/change', [App\Http\Controllers\HomeController::class, 'change'])->name('changeLang');
@@ -111,4 +109,3 @@ Route::get('lang/change', [App\Http\Controllers\HomeController::class, 'change']
 
 Route::get('index', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('change/lang', [App\Http\Controllers\HomeController::class, 'lang_change'])->name('LangChange');
-

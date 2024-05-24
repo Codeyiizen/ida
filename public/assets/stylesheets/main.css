@@ -1252,6 +1252,26 @@ h3.divider-1 {
     margin-right: 1rem;
 }
 
+#main-menu ul li.selectbox select{
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--primary);
+}
+
+#main-menu ul li.selectbox select:focus{
+    box-shadow: none;
+    outline: none;
+    border: 0;
+}
+
+#main-menu ul li.selectbox::after {
+    top: 2px;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-color: #fff;
+}
+
 #main-menu ul li .icon {
     width: 25px;
     height: 25px;
@@ -1897,7 +1917,8 @@ h3.divider-1 {
 
 
 .selectbox select.form-control:not([size]):not([multiple]) {
-    height: calc(40px);
+    /* height: calc(40px); */
+    height: auto;
     font-family: inherit;
 }
 

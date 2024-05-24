@@ -15,9 +15,5 @@ return [
 
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-    'signin'  => 'Sign In',
-    'sign1'  =>'Iron Deficiency Anaemia (IDA) Management System',
-    'sign2'  =>'Enter your mobile number',
-    'contctus' =>'Contact Us'
 
 ];

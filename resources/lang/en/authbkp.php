@@ -18,6 +18,6 @@ return [
     'signin'  => 'Sign In',
     'sign1'  =>'Iron Deficiency Anaemia (IDA) Management System',
     'sign2'  =>'Enter your mobile number',
-    'contctus' =>'Contact Us'
+    'contctus' =>'ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ'
 
 ];

@@ -1,11 +1,11 @@
 <style>
-#container,
+/* #container,
 #content,
 .section,
 .login-section>.container,
 .login-section>.container>.row {
     min-height: calc(100vh - 142px);
-}
+} */
 
 .box {
     height: 205px;

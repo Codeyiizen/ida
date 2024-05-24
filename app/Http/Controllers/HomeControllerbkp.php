@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Cookie;
 use App;
 
 class HomeController extends Controller
@@ -43,7 +42,7 @@ class HomeController extends Controller
     public function diseaseManagementThroughDiet(){
         return view('disease-management-through-diet');
     }
-        
+    
     public function knowIronDeficiencyAnaemia(){
         return view('iron-deficiency-anaemia.know-iron-deficiency-anaemia');
     }
@@ -242,13 +241,17 @@ public function viparitaKarani(){
     return view('yoga-poses-managing-anaemia.viparita-karani');
 }
 
-    
 
 
-    public function lang_change(Request $request)
-    {
-        App::setLocale($request->lang);
-        session()->put('locale', $request->lang);  
-        return redirect()->back();
-    }
+
+
+
+
+ public function lang_change(Request $request)
+ { 
+     App::setLocale($request->lang);
+     session()->put('locale', $request->lang);  
+     return redirect()->back();
+ }
+
 }
