@@ -8,7 +8,7 @@
                             <div class="card box-shadow">
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <h2>Contact Us</h2>
+                                        <h2>@lang('auth.contctus')</h2>
                                             <p>Please fill below form</p>
                                     </div>
                                     <form action="" class="form mb-0">

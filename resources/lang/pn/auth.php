@@ -15,9 +15,9 @@ return [
 
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-    'signin'  => 'Sign In',
-    'sign1'  =>'Iron Deficiency Anaemia (IDA) Management System',
-    'sign2'  =>'Enter your mobile number',
-    'contctus' =>'Contact Us'
+    'signin'   => 'ਸਾਈਨ - ਇਨ',
+    'sign1'   => 'ਆਇਰਨ ਦੀ ਘਾਟ ਅਨੀਮੀਆ (IDA) ਪ੍ਰਬੰਧਨ ਪ੍ਰਣਾਲੀ',
+    'sign2'   => 'ਆਪਣਾ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ',
+    'contctus' =>'ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ'
 
 ];

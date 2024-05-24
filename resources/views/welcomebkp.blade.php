@@ -63,11 +63,11 @@
                         <div class="card-body p-md-5">
                             <div class="text-center mb-4">
                                 <h2>@lang('auth.signin')</h2>
-                                <p class="fs-3">@lang('auth.sign1')</p>
+                                <p class="fs-3">Iron Deficiency Anaemia (IDA) Management System</p>
                             </div>
                             <form action="" class="form mb-0">
                                 <div class="form-group mb-4">
-                                    <label for="phone">@lang('auth.sign2')</label>
+                                    <label for="phone">Enter your mobile number</label>
                                     <input class="form-control" placeholder="e.g. +91 xxxx xxxx xx" type="number"
                                         name="mobile" id="phone" min="10" max="10">
                                 </div>
@@ -87,5 +87,9 @@
 
 </html>
 
-
-
+<script type="text/javascript">  
+    var url = "{{ route('LangChange') }}"; 
+    $(".Langchange").change(function(){
+        window.location.href = url + "?lang="+ $(this).val();
+    });  
+</script>
