@@ -12,18 +12,16 @@
                     <li class="breadcrumb-item active" aria-current="page">Causes of Anaemia</li>
                 </ol>
             </nav>
-            <h1 class="h2">Causes of Iron Deficiency Anaemia</h1>
+            <h1 class="h2">@lang('causes-anaemia.title')</h1>
             <div class="causes-anaemia-container mx-auto text-center position-relative">
                 <div class="heading-circle absolute-center">
-                    <h5 class="text-white mb-0">Causes of Iron Deficiency Anaemia</h5>
+                    <h5 class="text-white mb-0">@lang('causes-anaemia.title')</h5>
                 </div>
                 <ul class="list-unstyled list-causes-anaemia">
-                    <li><a class="hover-styled" href="{{ route('lack-iron-rich-diet') }}"><span>Lack of iron rich
-                                diet</span></a></li>
-                    <li><a class="hover-styled" href="{{ route('blood-loss') }}"><span>Blood Loss</span></a></li>
-                    <li><a class="hover-styled" href="{{ route('pregnancy') }}"><span>Pregnancy</span></a></li>
-                    <li><a class="hover-styled" href="{{ route('disease-treatments') }}"><span>Diseases and Disease
-                                Treatments</span></a></li>
+                    <li><a class="hover-styled" href="{{ route('lack-iron-rich-diet') }}"><span>@lang('causes-anaemia.Lack')</span></a></li>
+                    <li><a class="hover-styled" href="{{ route('blood-loss') }}"><span>@lang('causes-anaemia.Blood')</span></a></li>
+                    <li><a class="hover-styled" href="{{ route('pregnancy') }}"><span>@lang('causes-anaemia.Pregnancy')</span></a></li>
+                    <li><a class="hover-styled" href="{{ route('disease-treatments') }}"><span>@lang('causes-anaemia.Diseases')</span></a></li>
                 </ul>
             </div>
         </div>

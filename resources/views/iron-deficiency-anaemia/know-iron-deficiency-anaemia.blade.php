@@ -12,10 +12,10 @@
                     </li>
                 </ol>
             </nav>
-            <h1 class="h2 mb-4">Know about Anaemia</h1>
+            <h1 class="h2 mb-4">@lang('KnowaboutAnaemia.title')</h1>
             <ul class="list-unstyled list-unordered mb-3">
-                <li>An (without) -aemia (blood).(Shortage of iron in the body)</li>
-                <li>Anaemia can be defined as a reduction in the <a href="" data-toggle="modal"
+                <li>@lang('KnowaboutAnaemia.an')</li>
+                <li> @lang('KnowaboutAnaemia.Anaemia')<a href="" data-toggle="modal"
                         data-target="#hemoglobinModal">hemoglobin</a> level, or <a href="" data-toggle="modal"
                         data-target="#rbcModal">red
                         blood cell counts</a>.</li>
