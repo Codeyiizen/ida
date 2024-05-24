@@ -5,12 +5,12 @@
         <div class="container">
             <div class="card box-shadow">
                 <div class="card-body">
-                    <h3 class="bg-info text-center text-white mb-4">Health Status</h3>
+                    <h3 class="bg-info text-center text-white mb-4">@lang('health-status.title')</h3>
                     <div class="row mb-4">
                         <div class="col-md-8 offset-md-2">
                             <form action="" class="form mb-4 mb-md-0">
                                 <div class="form-group row mb-3">
-                                    <label class="col-3 form-label text-right mb-0" for="age">Age (Year)</label>
+                                    <label class="col-3 form-label text-right mb-0" for="age">@lang('health-status.age')</label>
                                     <div class="col-9">
                                         <input class="form-control" placeholder="" type="number" name="age" id="age"
                                             min="18" max="100">
@@ -19,99 +19,93 @@
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right mb-0" for="age">Weight
-                                        (Kg)</label>
+                                    <label class="col-3 form-label text-right mb-0" for="age">@lang('health-status.Weight')</label>
                                     <div class="col-9">
                                         <input class="form-control" placeholder="" type="number" name="weight"
                                             id="weight" min="1" max="200">
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right mb-0" for="height">Height
-                                        (cm)</label>
+                                    <label class="col-3 form-label text-right mb-0" for="height">@lang('health-status.Height')</label>
                                     <div class="col-9">
                                         <input class="form-control" placeholder="" type="number" name="height"
                                             id="height">
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right" for="hemoglobin">Hemoglobin
-                                        level</label>
+                                    <label class="col-3 form-label text-right" for="hemoglobin">@lang('health-status.Hemoglobin')</label>
                                     <div class="col-9">
                                         <input class="form-control" placeholder="" type="number" name="hemoglobin"
                                             id="hemoglobin">
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right">Add your Symptoms</label>
+                                    <label class="col-3 form-label text-right">@lang('health-status.Symptoms')</label>
                                     <div class="col-9 form-group mb-0">
                                         <div class="form-check">
                                             <input type="radio" id="dizziness-tiredness" name="symptoms"
                                                 class="custom-control-input" checked>
-                                            <label for="dizziness-tiredness">Dizziness and Tiredness</label>
+                                            <label for="dizziness-tiredness">@lang('health-status.Dizziness')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="unusual-heartbeat" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="unusual-heartbeat">Unusual Heartbeat</label>
+                                            <label for="unusual-heartbeat">@lang('health-status.Heartbeat')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="shortness-breath" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="shortness-breath">Shortness of breath</label>
+                                            <label for="shortness-breath">@lang('health-status.Shortness')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="inability-concentrate" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="inability-concentrate">Inability to concentrate</label>
+                                            <label for="inability-concentrate">@lang('health-status.Inability')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="resistance-infections" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="resistance-infections">Lowered resistance to
-                                                infections</label>
+                                            <label for="resistance-infections">@lang('health-status.Lowered')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="loss-appetite" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="loss-appetite">Loss of appetite</label>
+                                            <label for="loss-appetite">@lang('health-status.Loss')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="whiteness-eyelid" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="whiteness-eyelid">Whiteness in the inner portion of the
-                                                eyelid</label>
+                                            <label for="whiteness-eyelid">@lang('health-status.Whiteness')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="brittle-nail" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="brittle-nail">Brittle nail (spoon shaped nail)</label>
+                                            <label for="brittle-nail">@lang('health-status.Brittle')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="angular-stomatitis" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="angular-stomatitis">Angular stomatitis</label>
+                                            <label for="angular-stomatitis">@lang('health-status.Angular')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="fatigue" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="fatigue">Fatigue</label>
+                                            <label for="fatigue">@lang('health-status.Fatigue')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="whiteness-nailsPalms" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="whiteness-nailsPalms">Whiteness in nails and
-                                                palms</label>
+                                            <label for="whiteness-nailsPalms">@lang('health-status.Whitenesss')</label>
                                         </div>
                                         <div class="form-check">
                                             <input type="radio" id="headache" name="symptoms"
                                                 class="custom-control-input">
-                                            <label for="headache">Headache</label>
+                                            <label for="headache">@lang('health-status.Headache')</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <a href="{{ route('home') }}" class="btn btn-primary">Calculate</a>
+                                    <a href="{{ route('home') }}" class="btn btn-primary">@lang('health-status.Calculate')</a>
                                 </div>
                             </form>
                         </div>
@@ -121,7 +115,7 @@
                         <div class="col-md-4">
                             <div class="card bg-info mb-4 d-inline-block">
                                 <div class="card-body">
-                                    <h4 class="text-center text-white">BMI</h4>
+                                    <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
                                     <h3 class="text-center mb-0 text-white"><span class="bmi-result">170.07</span>
                                     </h3>
                                 </div>
@@ -134,7 +128,7 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a href="{{ route('home') }}" class="btn btn-success">Save and Proceed</a>
+                        <a href="{{ route('home') }}" class="btn btn-success">@lang('health-status.Save')</a>
                     </div>
                 </div>
             </div>
