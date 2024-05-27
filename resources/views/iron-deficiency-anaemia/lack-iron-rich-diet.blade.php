@@ -15,14 +15,12 @@
                             <li class="breadcrumb-item active" aria-current="page">Lack of iron rich diet</li>
                         </ol>
                     </nav>
-                    <h1 class="h2">Lack of iron rich diet</h1>
+                    <h1 class="h2">@lang('lack-iron-rich-diet.h1')</h1>
                     <img class="img-fluid alignright" src="../assets/images/causes-anaemia/lack-iron-rich-diet.gif"
                         alt="Lack of iron rich diet">
                     <ul class="list-unstyled list-unordered mb-4">
-                        <li>People who do not get nutrients like iron, vitamin B12, and folic acid through diet have a
-                            higher risk of iron deficiency anaemia.
-                        </li>
-                        <li>Drinking too much alcohol also raises your risk of anaemia. </li>
+                        <li>@lang('lack-iron-rich-diet.li_1')</li>
+                        <li>@lang('lack-iron-rich-diet.li_2')</li>
                     </ul>
                 </div>
             </section>
