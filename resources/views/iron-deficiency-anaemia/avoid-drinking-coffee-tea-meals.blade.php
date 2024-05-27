@@ -12,14 +12,14 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a
                                     href="{{ route('prevention-anaemia') }}">Prevention of Anaemia</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Avoid drinking coffee or tea with meals</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('prevention-anaemia.drinking')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2">Avoid drinking coffee or tea with meals</h1>
+                    <h1 class="h2">@lang('prevention-anaemia.drinking')</h1>
                     <img class="img-fluid alignright"
                             src="../assets/images/prevention-anaemia/avoid-drinking-coffee-tea-meals.gif"
                             alt="Avoid drinking coffee or tea with meals">
-                    <p>These drinks make it harder for your body to absorb iron.</p>
+                    <p>@lang('prevention-anaemia.make')</p>
                     
                    </div>
             </section>

@@ -16,26 +16,17 @@
             <ul class="list-unstyled list-unordered mb-3">
                 <li>@lang('KnowaboutAnaemia.an')</li>
                 <li> @lang('KnowaboutAnaemia.Anaemia')<a href="" data-toggle="modal"
-                        data-target="#hemoglobinModal">hemoglobin</a> level, or <a href="" data-toggle="modal"
-                        data-target="#rbcModal">red
-                        blood cell counts</a>.</li>
-                <li>A condition of the body caused due to the deficiency of essential nutrients like
-                    iron, protein, vitamin B12, folic acid etc. Although there are various forms of
-                    anemia, the most prevalent type is iron-deficiency anemia.
+                        data-target="#hemoglobinModal">@lang('KnowaboutAnaemia.hemoglobin') </a> @lang('KnowaboutAnaemia.level') <a href="" data-toggle="modal"
+                        data-target="#rbcModal">@lang('KnowaboutAnaemia.red')</a>.</li>
+                <li>@lang('KnowaboutAnaemia.condition')
                 </li>
             </ul>
-            <h4>Iron Deficiency Anaemia</h4>
+            <h4>@lang('KnowaboutAnaemia.Iron')</h4>
             <img class="img-fluid alignright" src="../assets/images/iron-deficiency-anaemia.gif"
                 alt="Iron Deficiency Anaemia">
             <ul class="list-unstyled list-unordered mb-3">
-                <li>Iron deficiency anemia occurs when the body does not have enough iron to produce
-                    sufficient hemoglobin. </li>
-                <li>This can happen due to a variety of reasons, including inadequate dietary
-                    intake,
-                    malabsorption of iron in the digestive tract, increased blood loss (due to
-                    menstruation or gastrointestinal bleeding), or increased iron requirements
-                    (during
-                    pregnancy, breastfeeding or growth spurts).</li>
+                <li>@lang('KnowaboutAnaemia.deficiency')</li>
+                <li>@lang('KnowaboutAnaemia.happen')</li>
             </ul>
         </div>
     </section>
@@ -52,9 +43,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="fa fa-times"></i>
                 </button>
-                <p><strong>Hemoglobin</strong> is a protein found in RBC that gives blood its red colour also
-                    responsible for
-                    transporting oxygen throughout the body and its dysfunction can lead to iron deficiency anaemia.
+                <p><strong>@lang('KnowaboutAnaemia.Hemoglobin1')</strong> @lang('KnowaboutAnaemia.protein')
                 </p>
             </div>
         </div>
@@ -69,12 +58,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="fa fa-times"></i>
                 </button>
-                <p><strong>RBCs</strong> play a critical role in iron deficiency anemia (IDA) because they are the
-                    primary carriers
-                    of oxygen in the body. Iron is an essential component of hemoglobin, a protein found in RBCs
-                    that binds with oxygen to transport it throughout the body. When there is insufficient iron in
-                    the body, the production of hemoglobin is reduced, and the RBCs become smaller and paler,
-                    leading to anemia.
+                <p><strong>@lang('KnowaboutAnaemia.RBCs')</strong> @lang('KnowaboutAnaemia.critical')
                 </p>
                 <img class="img-fluid" src="../assets/images/iron-deficiency-anaemia/know-iron-deficiency-anaemia.gif"
                     alt="RBCs">

@@ -112,3 +112,6 @@ Route::get('lang/change', [App\Http\Controllers\HomeController::class, 'change']
 Route::get('index', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('change/lang', [App\Http\Controllers\HomeController::class, 'lang_change'])->name('LangChange');
 
+
+Route::post('save/phone', [App\Http\Controllers\HomeController::class, 'savePhone'])->name('savePhone');
+

@@ -12,30 +12,23 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="{{ route('causes-anaemia') }}">Causes of
                                     Anaemia</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Blood Loss</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('blood-loss.Blood')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2">Blood Loss</h1>
+                    <h1 class="h2">@lang('blood-loss.Blood')</h1>
                     <img class="img-fluid alignright" src="../assets/images/causes-anaemia/blood-loss.gif"
                         alt="Blood Loss">
                     <ul class="list-unstyled list-unordered mb-4">
-                        <li>Blood loss is the most common cause of anaemia, especially iron-deficiency
-                            anaemia.</li>
-                        <li>Surgery, trauma, heavy menstrual periods or bleeding in the digestive or urinary
-                            tract can cause blood loss. If a lot of blood is lost, the body may lose enough
-                            red blood cells to cause iron deficiency.</li>
-                        <li>Women lose blood during menstruation; they are at greater risk of iron
-                            deficiency anaemia.</li>
+                        <li>@lang('blood-loss.common')</li>
+                        <li>@lang('blood-loss.Surgery')</li>
+                        <li>@lang('blood-loss.Women')</li>
                     </ul>
-                    <h4>Diseases and Disease Treatments </h4>
+                    <h4>@lang('blood-loss.diseases')</h4>
                     <img class="img-fluid alignright" src="../assets/images/causes-anaemia/disease-treatments.gif"
                         alt="Diseases and Disease Treatments">
                     <ul class="list-unstyled list-unordered mb-4">
-                        <li>Certain disorders or surgeries that affect the intestines can also interfere in
-                            the absorption of iron, which can lead to iron deficiency anaemia.</li>
-                        <li>Chronic diseases, like kidney disease and cancer make it hard for the body to
-                            make enough red blood cells or damage the red blood cells’ ability to carry
-                            oxygen.</li>
+                        <li>@lang('blood-loss.disorders')</li>
+                        <li>@lang('blood-loss.Chronic')</li>
                     </ul>
                 </div>
             </section>

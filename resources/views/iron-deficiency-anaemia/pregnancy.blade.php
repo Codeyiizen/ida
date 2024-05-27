@@ -12,14 +12,13 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="{{ route('causes-anaemia') }}">Causes of
                                     Anaemia</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Pregnancy</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('blood-loss.Pregnancy')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2">Pregnancy</h1>
+                    <h1 class="h2">@lang('blood-loss.Pregnancy')</h1>
                     <img class="img-fluid alignright mh-350" src="../assets/images/causes-anaemia/pregnancy.gif"
                         alt="Pregnancy">
-                    <p>During pregnancy, mother body needs more iron than normal in order to create enough oxygen for
-                        the developing baby.
+                    <p>@lang('blood-loss.During')
                     </p>
                 </div>
             </section>

@@ -12,17 +12,15 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a
                                     href="{{ route('prevention-anaemia') }}">Prevention of Anaemia</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Increase your Vitamin C and folate intake</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('prevention-anaemia.Vitamin')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2">Increase your Vitamin C and folate intake</h1>
+                    <h1 class="h2">@lang('prevention-anaemia.Vitamin')</h1>
                     <img class="img-fluid alignright" src="../assets/images/prevention-anaemia/increase-vit-folate-intake.gif"
                             alt="Increase your Vitamin C and folate intake">
                     <ul class="list-unstyled list-unordered mb-3">
-                        <li>The presence of vitamin C and folate can help the body absorb iron more
-                            efficiently.</li>
-                        <li>Add a source of Vitamin C like tomato, orange juice, lemon, strawberries, or
-                            other vitamin c rich fruits and vegetables in your diet for absorption of iron.
+                        <li>@lang('prevention-anaemia.and')</li>
+                        <li>@lang('prevention-anaemia.Add')
                         </li>
                     </ul>
                 </div>
