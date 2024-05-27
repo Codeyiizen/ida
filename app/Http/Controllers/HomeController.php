@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Cookie;
 use App;
+use App\Models\phones;
 
 class HomeController extends Controller
 {
@@ -251,4 +252,17 @@ public function viparitaKarani(){
         session()->put('locale', $request->lang);  
         return redirect()->back();
     }
+
+  public function savePhone(Request $request){ 
+    $request->validate([
+        'mobile' => 'required|required',
+    ]);
+
+    $phone = new phones;
+    $phone->phone = $request->mobile;
+    $phone->save();
+    return redirect()->route('health-status');
+
+  }
+
 }

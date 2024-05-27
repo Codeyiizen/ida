@@ -13,16 +13,16 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a
                                     href="{{ route('prevention-anaemia') }}">Prevention of Anaemia</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Eat a diet rich in iron</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('prevention-anaemia.diet')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2">Eat a diet rich in iron</h1>
+                    <h1 class="h2">@lang('prevention-anaemia.diet')</h1>
                     <img class="img-fluid alignright" src="../assets/images/prevention-anaemia/eat-diet-rich-iron.gif"
                     alt="Eat a diet rich in iron">
                     <ul class="list-unstyled list-unordered mb-3">
-                        <li>Include more green leafy Vegetables in diet.</li>
-                        <li>Eat pulses and legumes to increase your iron intake.</li>
-                        <li>Pregnant women need almost twice as much iron than women who are not pregnant
+                        <li>@lang('prevention-anaemia.Include')/li>
+                        <li>@lang('prevention-anaemia.pulses')</li>
+                        <li>@lang('prevention-anaemia.women')
                         </li>
                     </ul>                 
                 </div>

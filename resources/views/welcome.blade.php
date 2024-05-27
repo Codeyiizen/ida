@@ -65,13 +65,20 @@
                                 <h2>@lang('auth.signin')</h2>
                                 <p class="fs-3">@lang('auth.sign1')</p>
                             </div>
-                            <form action="" class="form mb-0">
+                            <form action="{{ route('savePhone') }}" class="form mb-0" method="post">
+                             @csrf
+                             <span class="text-danger">
+                                        @error('mobile')
+                                            {{ $message }}
+                                        @enderror
+                            </span>
                                 <div class="form-group mb-4">
                                     <label for="phone">@lang('auth.sign2')</label>
                                     <input class="form-control" placeholder="e.g. +91 xxxx xxxx xx" type="number"
-                                        name="mobile" id="phone" min="10" max="10">
+                                        name="mobile" id="phone">
                                 </div>
-                                <a href="{{ route('health-status') }}" class="btn btn-primary btn-block">Log In</a>
+                                <!-- <a href="{{ route('health-status') }}" class="btn btn-primary btn-block">@lang('auth.login')</a> -->
+                                <button  class="btn btn-primary btn-block">@lang('auth.login')</button>
                             </form>
                         </div>
                     </div>

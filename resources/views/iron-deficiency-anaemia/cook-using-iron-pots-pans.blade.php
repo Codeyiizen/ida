@@ -12,12 +12,12 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a
                                     href="{{ route('prevention-anaemia') }}">Prevention of Anaemia</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Cook using iron pots and pans</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('prevention-anaemia.pans')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2">Cook using iron pots and pans</h1><img class="img-fluid alignright" src="../assets/images/prevention-anaemia/cook-using-iron-pots-pans.gif"
+                    <h1 class="h2">@lang('prevention-anaemia.pans')</h1><img class="img-fluid alignright" src="../assets/images/prevention-anaemia/cook-using-iron-pots-pans.gif"
                     alt="Cook using iron pots and pans">
-                    <p>Eating food prepared in iron pots increases the iron content in food.</p>
+                    <p>@lang('prevention-anaemia.food')</p>
                     
                    </div>
             </section>
