@@ -16,14 +16,11 @@
                             <li class="breadcrumb-item active">Dizziness and Tiredness</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Dizziness and Tiredness</h1> <img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/dizziness-tiredness.gif"
+                    
+                    <h1 class="h2 mb-3">@lang('dizziness-tiredness.h1')</h1>
+                     <img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/dizziness-tiredness.gif"
                     alt="Dizziness and Tiredness">
-                    <p>Both dizziness and tiredness is a common symptom of iron
-                        deficiency anaemia because the body's cells aren't getting enough oxygen to produce
-                        energy, leading to fatigue. It can affect daily activities and quality of life, so
-                        it's
-                        important to address the underlying causes and seek medical attention if necessary.
-                    </p>
+                    <p>@lang('dizziness-tiredness.p')</p>
                 </div>
             </section>
         </div>
