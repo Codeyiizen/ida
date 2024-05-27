@@ -15,15 +15,10 @@
                             <li class="breadcrumb-item active">Unusual Heartbeat</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Unusual Heartbeat</h1>
+                    <h1 class="h2 mb-3">@lang('unusual-heartbeat.h1')</h1>
                     <img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/unusual-heartbeat.gif"
                     alt="Unusual Heartbeat">
-                    <p>Iron deficiency can cause an unusual heartbeat or heart
-                        palpitations. This is because iron is essential for the proper functioning of the
-                        body.
-                        When there is a lack of iron, the heart has to work harder to get enough oxygen,
-                        which
-                        can lead to palpitations or a racing heart.</p>               
+                    <p>@lang('unusual-heartbeat.p')</p>               
                 </div>
             </section>
         </div>

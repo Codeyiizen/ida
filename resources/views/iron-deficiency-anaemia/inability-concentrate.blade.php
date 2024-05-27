@@ -14,12 +14,9 @@
                     <li class="breadcrumb-item active">Inability to concentrate</li>
                 </ol>
             </nav>
-            <h1 class="h2 mb-3">Shortness of breath </h1><img class="img-fluid alignright"
-                src="../assets/images/sign-symptoms-iron/shortness-breath.gif" alt="Shortness of breath">
-            <p>Iron is essential for the proper functioning of haemoglobin that carries oxygen
-                throughout the body. If body may not be getting enough oxygen, which can cause
-                shortness of breath, especially during physical activity. This happens because the
-                body is working harder to get the oxygen it needs.</p>
+            <h1 class="h2 mb-3">@lang('inability-concentrate.h1')</h1><img class="img-fluid alignright"
+                src="../assets/images/sign-symptoms-iron/inability-concentrate.gif" alt="Shortness of breath">
+            <p>@lang('inability-concentrate.p')</p>
 
         </div>
     </section>
