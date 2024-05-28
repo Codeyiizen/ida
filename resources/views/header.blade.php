@@ -46,18 +46,22 @@
                         <nav id="main-menu">
                             <ul class="list-unstyled">
                                 <li><a href="{{ route('home') }}">Dashboard</a></li>
-                               
+
                                 <!-- <li><a href="contact-us.html">Language<i class="fas fa-angle-down ml-2"></i></a>
                                     <ul class="list-unstyled">
                                         <li><a href="#">English</a></li>
                                         <li><a href="">ਪੰਜਾਬੀ</a></li>
                                     </ul>
                                 </li> -->
-                                <li class="selectbox ml-3">
-                                <select class="form-control Langchange border-0 pl-0">
-                                    <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
-                                    <option value="pn" {{ session()->get('locale') == 'pn' ? 'selected' : '' }}>ਪੰਜਾਬੀ</option>                    
-                                </select>
+                                <li>
+                                    <span class="selectbox px-3">
+                                        <select class="bg-transparent form-control Langchange border-0 pl-0">
+                                            <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>
+                                                English</option>
+                                            <option value="pn" {{ session()->get('locale') == 'pn' ? 'selected' : '' }}>
+                                                ਪੰਜਾਬੀ</option>
+                                        </select>
+                                    </span>
                                 </li>
                                 <li><a href="{{ route('contactus') }}">Contact Us</a></li>
                                 <li class="brand d-lg-none"><img class="img-fluid mx-auto" src="assets/images/pau.png"
@@ -74,4 +78,3 @@
         </header>
         <!-- /Header -->
         <!-- Content -->
-
