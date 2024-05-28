@@ -10,14 +10,9 @@
                         Deficiency Anaemia</li>
                 </ol>
             </nav>
-            <h1 class="h2 mb-4">Yoga Poses for Managing Iron Deficiency Anaemia</h1>
+            <h1 class="h2 mb-3">@lang('yoga-poses-managing-anaemia.h1')</h1>
             <p class="mb-4">
-                Anaemia is a condition in which the iron content or hemoglobin levels in the blood are below
-                normal. Oxygen plays a crucial role in the breathing process as it regulates energy and supports
-                body metabolism. When hemoglobin levels are low in the bloodstream, the blood fails to supply
-                adequate oxygen to the body. Consequently, the lungs and heart must work overtime to meet the
-                body's oxygen requirements. Here are five asanas that can aid the lungs and heart during this
-                process, ensuring the body maintains stable oxygen levels.</p>
+                @lang('yoga-poses-managing-anaemia.p')</p>
             <div class="row text-center">
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
@@ -26,9 +21,8 @@
                                 class="card-img-top rounded-0" alt="Surya Namaskar">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Surya Namaskar</h4>
-                            <p class="card-text">Join your palms and stand straight. Raise your hands and
-                                stretch them back.Bend down and try to hold your... </p>
+                            <h4>@lang('yoga-poses-managing-anaemia.cardOneH4')</h4>
+                            <p class="card-text">@lang('yoga-poses-managing-anaemia.cardOneP')</p>
                             <div class="btn-container mt-auto mb-0">
                                 <a href="{{ route('surya-namaskar') }}" class="btn btn-primary">Learn
                                     More</a>
@@ -43,9 +37,8 @@
                                 class="card-img-top rounded-0" alt="Pawanmuktasana Yoga">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Pawanmuktasana Yoga</h4>
-                            <p class="card-text">At first, lie flat on your back as you keep your legs together
-                                and straight. Make sure that you keep... </p>
+                            <h4>@lang('yoga-poses-managing-anaemia.cardTwoH4')</h4>
+                            <p class="card-text">@lang('yoga-poses-managing-anaemia.cardTwoP')</p>
                             <div class="btn-container mt-auto mb-0">
                                 <a href="{{ route('pawanmuktasana') }}" class="btn btn-primary">Learn
                                     More</a>
@@ -60,9 +53,8 @@
                                 class="card-img-top rounded-0" alt="Sarvangasana Yoga">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Sarvangasana Yoga</h4>
-                            <p class="card-text">Lie flat on your back having your hands by the side. • Lift
-                                your legs, back and buttocks with a single movement...</p>
+                            <h4>@lang('yoga-poses-managing-anaemia.cardThreeH4')</h4>
+                            <p class="card-text">@lang('yoga-poses-managing-anaemia.cardThreeP')</p>
                             <div class="btn-container mt-auto mb-0">
                                 <a href="{{ route('sarvangasana') }}" class="btn btn-primary">Learn
                                     More</a>
@@ -77,10 +69,8 @@
                                 class="card-img-top rounded-0" alt="Viparita Karani Yoga">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Viparita Karani Yoga</h4>
-                            <p class="card-text">Start with the supine position, lying on your back in a relaxed
-                                way. Let the hands rest on the floor next...
-                            </p>
+                            <h4>@lang('yoga-poses-managing-anaemia.cardFourH4')</h4>
+                            <p class="card-text">@lang('yoga-poses-managing-anaemia.cardFourP')</p>
                             <div class="btn-container mt-auto mb-0">
                                 <a href="{{ route('viparita-karani') }}" class="btn btn-primary">Learn
                                     More</a>

@@ -9,63 +9,63 @@
                             <li class="breadcrumb-item" aria-current="page"><a
                                     href="{{ route('yoga-poses-managing-anaemia') }}">Yoga
                                     Poses for Managing Iron Deficiency Anaemia</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Surya Namaskar</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('yoga-poses-managing-anaemia.cardOneH4')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-4">Surya Namaskar</h1>
-                    <h4>Steps</h4>
+                    <h1 class="h2 mb-4"></h1>
+                    <h4>@lang('yoga-poses-managing-anaemia.steps')</h4>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image1.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>1. Join your palms and stand straight.</p>
+                    <p>1. @lang('yoga-poses-managing-anaemia.snStep1')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image2.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>2. Raise your hands and stretch them back.</p>
+                    <p>2. @lang('yoga-poses-managing-anaemia.snStep2')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image3.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>3. Bend down and try to hold your ankles with your hands.</p>
+                    <p>3. @lang('yoga-poses-managing-anaemia.snStep3')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image4.jpg" alt="Surya Namaskar">
                     </figure>
                     <p>
-                        4. Place the right foot at the back, left foot under the torso and look straight.
+                        4. @lang('yoga-poses-managing-anaemia.snStep4')
                     </p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image5.jpg" alt="Surya Namaskar">
                     </figure>
                     <p>
-                        5. Put both legs together at the back, keep your elbow straight and keep your spine straight.
+                        5.@lang('yoga-poses-managing-anaemia.snStep5')
                     </p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image6.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>6. Bend your elbows and push your body towards the floor, keeping it stiff like a push-up.</p>
+                    <p>6.@lang('yoga-poses-managing-anaemia.snStep6')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image7.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>7. Push your hips towards the floor, hands straight, chest up and stretch your shoulders up. </p>
+                    <p>7. @lang('yoga-poses-managing-anaemia.snStep7')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image8.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>8. Keep your hands in the same position, raise your hip and back to form a curve</p>
+                    <p>8. @lang('yoga-poses-managing-anaemia.snStep8')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image9.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>9. Retract to form position as in step 4 using the opposite legs.</p>
+                    <p>9. @lang('yoga-poses-managing-anaemia.snStep9')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image10.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>10. Retract to form position as in step 3.</p>
+                    <p>10. @lang('yoga-poses-managing-anaemia.snStep10')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image11.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>11. Stand straight as you raise your hands above your head.</p>
+                    <p>11. @lang('yoga-poses-managing-anaemia.snStep11')</p>
                     <figure class="figure">
                         <img class="img-fluid" src="../assets/images/surya-namaskar/image12.jpg" alt="Surya Namaskar">
                     </figure>
-                    <p>12. Bring your hands back to the position in step 1.</p>
+                    <p>12. @lang('yoga-poses-managing-anaemia.snStep12')</p>
                 </div>
             </section>
         </div>
