@@ -55,7 +55,7 @@
                                 </li> -->
                                 <li>
                                     <span class="selectbox px-3">
-                                        <select class="bg-transparent form-control langchange border-0 pl-0">
+                                        <select class="form-control langchange border-0 pl-0">
                                             <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>
                                                 English</option>
                                             <option value="pn" {{ session()->get('locale') == 'pn' ? 'selected' : '' }}>
