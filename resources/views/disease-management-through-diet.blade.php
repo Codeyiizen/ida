@@ -18,7 +18,7 @@
                                 class="card-img-top rounded-0" alt="Locally available iron and vitamin C rich food">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Locally available iron and vitamin C rich food</h4>
+                            <h4>@lang('disease-management-through-diet.cardOneH1')</h4>
                             <p class="card-text">The anaemic patient must have 8 hours of undisturbed sleep and
                                 relaxation every day... </p>
                             <div class="btn-container mt-auto mb-0">
@@ -36,7 +36,7 @@
                                 class="card-img-top rounded-0" alt="Diet Tips">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Diet Tips </h4>
+                            <h4>@lang('disease-management-through-diet.cardTwoH4')</h4>
                             <p class="card-text">People who do not get nutrients like iron, vitamin B12, and
                                 folic acid through diet have a higher risk of iron deficiency anaemia... </p>
                             <div class="btn-container mt-auto mb-0">
@@ -53,12 +53,11 @@
                                 class="card-img-top rounded-0" alt="Drugs Instruction">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Drugs Instruction</h4>
+                            <h4>@lang('disease-management-through-diet.cardThreeH4')</h4>
                             <p class="card-text">Do not consume iron supplements along with calcium supplements and
                                 antibiotics. It can be consumed along ...</p>
                             <div class="btn-container mt-auto mb-0">
-                                <a href="{{ route('drugs-instruction') }}"
-                                    class="btn btn-primary">Learn More</a>
+                                <a href="{{ route('drugs-instruction') }}" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +69,7 @@
                                 class="card-img-top rounded-0" alt="Foods to Avoid">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Foods to Avoid</h4>
+                            <h4>@lang('disease-management-through-diet.cardFourH4')</h4>
                             <p class="card-text">Alcohol can create adverse effects and worsen anemia symptoms in people
                                 who consume it regularly and also seems ...</p>
                             <div class="btn-container mt-auto mb-0">
@@ -87,14 +86,14 @@
                                 class="card-img-top rounded-0" alt="Diet Plan for Anaemia Patient">
                         </figure>
                         <div class="card-body d-flex flex-column">
-                            <h4>Diet Plan for Anaemia Patient</h4>
+                            <h4>@lang('disease-management-through-diet.cardFiveH4')</h4>
                             <p class="card-text">Add a source of Vitamin C like tomato, orange juice, lemon,
                                 strawberries, or other vitamin c rich fruits and vegetables in your diet...</p>
                             <div class="btn-container mt-auto mb-0">
-                                <a href="{{ route('diet-plan-anaemia-patient') }}"
-                                    class="btn btn-primary">Learn More</a>
+                                <a href="{{ route('diet-plan-anaemia-patient') }}" class="btn btn-primary">Learn
+                                    More</a>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
