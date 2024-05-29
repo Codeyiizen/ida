@@ -17,7 +17,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2">@lang('blood-loss.treatments')</h1> <img class="img-fluid alignright"
-                        src="../assets/images/causes-anaemia/disease-treatments.gif"
+                        src="{{ url('/') }}/public/assets/images/causes-anaemia/disease-treatments.gif"
                         alt="Diseases and Disease Treatments">
                     <ul class="list-unstyled list-unordered mb-4">
                         <li>@lang('blood-loss.Certain')</li>

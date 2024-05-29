@@ -28,7 +28,10 @@ use Illuminate\Support\Facades\Session;
     return view('welcome');
 });
 
-
+Route::get('/route-cache', function () {  
+  $exitCode = Artisan::call('config:cache');
+  // return what you want
+});
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contactUs'])->name('contactus');
@@ -110,7 +113,7 @@ Route::get('lang/change', [App\Http\Controllers\HomeController::class, 'change']
 // Route::get('lang/home', [App\Http\Controllers\HomeController::class, 'index']);
 
 Route::get('index', [App\Http\Controllers\HomeController::class, 'index']);
-Route::get('change/lang', [App\Http\Controllers\HomeController::class, 'lang_change'])->name('LangChange');
+Route::get('change/lang', [App\Http\Controllers\HomeController::class, 'lang_change'])->name('langChange');
 
 
 Route::post('save/phone', [App\Http\Controllers\HomeController::class, 'savePhone'])->name('savePhone');

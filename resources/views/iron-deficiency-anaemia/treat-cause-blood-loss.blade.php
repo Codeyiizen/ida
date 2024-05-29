@@ -16,7 +16,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2">Treat the cause of blood loss</h1>
-                    <img class="img-fluid alignright" src="../assets/images/prevention-anaemia/treat-cause-blood-loss.gif"
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/prevention-anaemia/treat-cause-blood-loss.gif"
                     alt="Treat the cause of blood loss">
                     <p>Consult to your doctor if you have heavy menstrual periods or have digestive system
                         problems.

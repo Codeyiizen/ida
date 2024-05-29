@@ -17,7 +17,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2 mb-3">@lang('shortness-breath.h1')</h1>
-                    <img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/shortness-breath.gif"
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/shortness-breath.gif"
                     alt="Shortness of breath">
                     <p>@lang('shortness-breath.p')</p>
                                        

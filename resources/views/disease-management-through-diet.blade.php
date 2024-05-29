@@ -14,7 +14,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/disease-management-through-diet/locally-available-iron-vitamin-rich-food.gif"
+                            <img src="{{ url('/') }}/public/assets/images/disease-management-through-diet/locally-available-iron-vitamin-rich-food.gif"
                                 class="card-img-top rounded-0" alt="Locally available iron and vitamin C rich food">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -32,7 +32,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/disease-management-through-diet/diet-tips.gif"
+                            <img src="{{ url('/') }}/public/assets/images/disease-management-through-diet/diet-tips.gif"
                                 class="card-img-top rounded-0" alt="Diet Tips">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -49,7 +49,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/disease-management-through-diet/drugs-instruction.gif"
+                            <img src="{{ url('/') }}/public/assets/images/disease-management-through-diet/drugs-instruction.gif"
                                 class="card-img-top rounded-0" alt="Drugs Instruction">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -66,7 +66,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/disease-management-through-diet/foods-avoid.gif"
+                            <img src="{{ url('/') }}/public/assets/images/disease-management-through-diet/foods-avoid.gif"
                                 class="card-img-top rounded-0" alt="Foods to Avoid">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -83,7 +83,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/disease-management-through-diet/diet-plan-anaemia-patient.gif"
+                            <img src="{{ url('/') }}/public/assets/images/disease-management-through-diet/diet-plan-anaemia-patient.gif"
                                 class="card-img-top rounded-0" alt="Diet Plan for Anaemia Patient">
                         </figure>
                         <div class="card-body d-flex flex-column">

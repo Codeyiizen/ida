@@ -107,7 +107,7 @@
             <div class="row text-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="box mb-4 mb-lg-0">
-                        <img class="img-fluid" src="assets/images/iron-deficiency-anaemia.gif"
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/iron-deficiency-anaemia.gif"
                             alt="Know about Iron Deficiency Anaemia">
                         <div class="box-content">
                             <h4>Know about Iron Deficiency Anaemia</h4>
@@ -122,7 +122,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="box mb-4 mb-lg-0">
-                        <img class="img-fluid" src="assets/images/diseas-management-through-diet.gif"
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/diseas-management-through-diet.gif"
                             alt="Disease Management through Diet">
                         <div class="box-content">
                             <h4>Disease Management through Diet</h4>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="box">
-                        <img class="img-fluid" src="assets/images/yoga-poses-deficiency-anaemia.gif"
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/yoga-poses-deficiency-anaemia.gif"
                             alt="Yoga Poses for Managing Iron Deficiency Anaemia">
                         <div class="box-content">
                             <h4>Yoga Poses for Managing Iron Deficiency Anaemia</h4>

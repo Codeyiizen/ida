@@ -18,18 +18,18 @@
     </footer>
     <!-- Javascript -->
     
-    <script src="{{ url('/') }}/assets/javascripts/jquery-1.11.2.min.js"></script>
-    <script src="{{ url('/') }}/assets/javascripts/popper.js"></script>
-    <script src="{{ url('/') }}/assets/javascripts/bootstrap.bundle.js"></script>
-    <script src="{{ url('/') }}/assets/javascripts/bootstrap.js"></script>
-    <script src="{{ url('/') }}/assets/javascripts/all.js"></script>
-    <script src="{{ url('/') }}/assets/javascripts/meanmenu.js"></script>
+    <script src="{{ url('/') }}/public/assets/javascripts/jquery-1.11.2.min.js"></script>
+    <script src="{{ url('/') }}/public/assets/javascripts/popper.js"></script>
+    <script src="{{ url('/') }}/public/assets/javascripts/bootstrap.bundle.js"></script>
+    <script src="{{ url('/') }}/public/assets/javascripts/bootstrap.js"></script>
+    <script src="{{ url('/') }}/public/assets/javascripts/all.js"></script>
+    <script src="{{ url('/') }}/public/assets/javascripts/meanmenu.js"></script>
     <!-- Custom JS Code for this page -->
-    <script src="{{ url('/') }}/assets/javascripts/main.js"></script>
+    <script src="{{ url('/') }}/public/assets/javascripts/main.js"></script>
 
     <script type="text/javascript">  
-    var url = "{{ route('LangChange') }}";  
-    $(".Langchange").change(function(){ 
+    var url = "{{ route('langChange') }}";  
+    $(".langchange").change(function(){     
         window.location.href = url + "?lang="+ $(this).val();
     });  
 </script>

@@ -17,7 +17,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2">@lang('prevention-anaemia.diet')</h1>
-                    <img class="img-fluid alignright" src="../assets/images/prevention-anaemia/eat-diet-rich-iron.gif"
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/prevention-anaemia/eat-diet-rich-iron.gif"
                     alt="Eat a diet rich in iron">
                     <ul class="list-unstyled list-unordered mb-3">
                         <li>@lang('prevention-anaemia.Include')/li>

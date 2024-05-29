@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row align-items-lg-center">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-75 rounded d-lg-block d-none" src="assets/images/logo.png"
+                    <img class="img-fluid w-75 rounded d-lg-block d-none" src="{{ url('/') }}/public/assets/images/logo.png"
                         alt="Iron Deficiency Anaemia (IDA) Management">
                 </div>
                 <div class="col-lg-5 offset-lg-1">

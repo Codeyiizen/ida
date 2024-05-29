@@ -16,7 +16,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2">@lang('blood-loss.Pregnancy')</h1>
-                    <img class="img-fluid alignright mh-350" src="../assets/images/causes-anaemia/pregnancy.gif"
+                    <img class="img-fluid alignright mh-350" src="{{ url('/') }}/public/assets/images/causes-anaemia/pregnancy.gif"
                         alt="Pregnancy">
                     <p>@lang('blood-loss.During')
                     </p>

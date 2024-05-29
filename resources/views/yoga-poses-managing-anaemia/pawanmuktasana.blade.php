@@ -19,7 +19,7 @@
                         <li>@lang('yoga-poses-managing-anaemia.pmStep1_li2')</li>
                     </ul>
                     <figure class="figure">
-                        <img class="img-fluid" src="../assets/images/surya-namaskar/image1.jpg" alt="Pawanmuktasana Yoga">
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/surya-namaskar/image1.jpg" alt="Pawanmuktasana Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 2</h4>
                     <ul class="list-unstyled list-unordered alt mb-3">
@@ -27,7 +27,7 @@
                         <li>@lang('yoga-poses-managing-anaemia.pmStep2_li2')</li>
                     </ul>
                     <figure class="figure">
-                        <img class="img-fluid" src="../assets/images/surya-namaskar/image2.jpg" alt="Pawanmuktasana Yoga">
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/surya-namaskar/image2.jpg" alt="Pawanmuktasana Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 3</h4>
                     <ul class="list-unstyled list-unordered alt mb-3">
@@ -36,7 +36,7 @@
                         <li>@lang('yoga-poses-managing-anaemia.pmStep3_li3')</li>
                     </ul>
                     <figure class="figure">
-                        <img class="img-fluid" src="../assets/images/surya-namaskar/image3.jpg" alt="Pawanmuktasana Yoga">
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/surya-namaskar/image3.jpg" alt="Pawanmuktasana Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 4</h4>
                     <ul class="list-unstyled list-unordered alt mb-3">
@@ -45,7 +45,7 @@
                         <li>@lang('yoga-poses-managing-anaemia.pmStep4_li3')</li>
                     </ul>
                     <figure class="figure">
-                        <img class="img-fluid" src="../assets/images/surya-namaskar/image4.jpg" alt="Pawanmuktasana Yoga">
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/surya-namaskar/image4.jpg" alt="Pawanmuktasana Yoga">
                     </figure>
                 </div>
             </section>

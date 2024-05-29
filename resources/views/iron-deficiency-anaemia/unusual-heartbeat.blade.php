@@ -16,7 +16,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2 mb-3">@lang('unusual-heartbeat.h1')</h1>
-                    <img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/unusual-heartbeat.gif"
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/unusual-heartbeat.gif"
                     alt="Unusual Heartbeat">
                     <p>@lang('unusual-heartbeat.p')</p>               
                 </div>

@@ -16,7 +16,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2">@lang('prevention-anaemia.Vitamin')</h1>
-                    <img class="img-fluid alignright" src="../assets/images/prevention-anaemia/increase-vit-folate-intake.gif"
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/prevention-anaemia/increase-vit-folate-intake.gif"
                             alt="Increase your Vitamin C and folate intake">
                     <ul class="list-unstyled list-unordered mb-3">
                         <li>@lang('prevention-anaemia.and')</li>

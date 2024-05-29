@@ -16,7 +16,7 @@
                     <h4>@lang('yoga-poses-managing-anaemia.step') 1</h4>
                     <p>@lang('yoga-poses-managing-anaemia.sgStep1_p')</p>
                     <figure class="figure2">
-                        <img class="img-fluid" src="../assets/images/sarvangasana/image1.jpg" alt="Sarvangasana Yoga">
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/sarvangasana/image1.jpg" alt="Sarvangasana Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 2</h4>
                     <ul class="list-unstyled list-unordered alt mb-3">
@@ -26,17 +26,17 @@
                         <li>@lang('yoga-poses-managing-anaemia.sgStep2_li4')</li>
                     </ul>
                     <figure class="figure2">
-                        <img class="img-fluid" src="../assets/images/sarvangasana/image2.jpg" alt="Sarvangasana Yoga">
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/sarvangasana/image2.jpg" alt="Sarvangasana Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 3</h4>
                     <p>@lang('yoga-poses-managing-anaemia.sgStep3_p')</p>
                     <figure class="figure2">
-                        <img class="img-fluid" src="../assets/images/sarvangasana/image3.jpg" alt="Sarvangasana Yoga">
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/sarvangasana/image3.jpg" alt="Sarvangasana Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 4</h4>
                     <p>@lang('yoga-poses-managing-anaemia.sgStep4_p')</p>
                     <figure class="figure2">
-                        <img class="img-fluid" src="../assets/images/sarvangasana/image4.jpg" alt="Sarvangasana Yoga">
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/sarvangasana/image4.jpg" alt="Sarvangasana Yoga">
                     </figure>
                 </div>
             </section>

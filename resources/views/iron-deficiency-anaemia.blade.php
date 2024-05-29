@@ -14,7 +14,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/iron-deficiency-anaemia/know-iron-deficiency-anaemia.gif"
+                            <img src="{{ url('/') }}/public/assets/images/iron-deficiency-anaemia/know-iron-deficiency-anaemia.gif"
                                 class="card-img-top rounded-0" alt="Know Iron Deficiency Anaemia">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -32,7 +32,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/iron-deficiency-anaemia/causes-anaemia.gif"
+                            <img src="{{ url('/') }}/public/assets/images/iron-deficiency-anaemia/causes-anaemia.gif"
                                 class="card-img-top rounded-0" alt="Causes of Anaemia">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -49,7 +49,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/iron-deficiency-anaemia/symptoms-anaemia.gif"
+                            <img src="{{ url('/') }}/public/assets/images/iron-deficiency-anaemia/symptoms-anaemia.gif"
                                 class="card-img-top rounded-0" alt="Symptoms of Anaemia">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -66,7 +66,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/iron-deficiency-anaemia/prevention-anaemia.gif"
+                            <img src="{{ url('/') }}/public/assets/images/iron-deficiency-anaemia/prevention-anaemia.gif"
                                 class="card-img-top rounded-0" alt="Prevention of Anaemia ">
                         </figure>
                         <div class="card-body d-flex flex-column">

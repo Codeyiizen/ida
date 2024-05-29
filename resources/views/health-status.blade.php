@@ -149,7 +149,7 @@
                         </div>
                         <div class="col-md-4 text-right">
                             <figure class="figure2">
-                                <img class="img-fluid" src="assets/images/ida-detection.gif" alt="IDA Detection">
+                                <img class="img-fluid" src="{{ url('/') }}/public/assets/images/ida-detection.gif" alt="IDA Detection">
                             </figure>
                         </div>
                     </div>

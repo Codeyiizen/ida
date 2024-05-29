@@ -15,7 +15,7 @@
                 </ol>
             </nav>
             <h1 class="h2 mb-3">@lang('inability-concentrate.h1')</h1><img class="img-fluid alignright"
-                src="../assets/images/sign-symptoms-iron/inability-concentrate.gif" alt="Shortness of breath">
+                src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/inability-concentrate.gif" alt="Shortness of breath">
             <p>@lang('inability-concentrate.p')</p>
 
         </div>
