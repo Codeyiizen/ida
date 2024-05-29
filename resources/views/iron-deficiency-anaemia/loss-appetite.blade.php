@@ -15,7 +15,7 @@
                             <li class="breadcrumb-item active">Loss of appetite</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Loss of appetite</h1><img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/loss-appetite.gif"
+                    <h1 class="h2 mb-3">Loss of appetite</h1><img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/loss-appetite.gif"
                     alt="Loss of appetite">
                     <p>If the body may not be getting enough oxygen due to a lack of
                         haemoglobin in the blood, which can cause feelings of fatigue, weakness, and

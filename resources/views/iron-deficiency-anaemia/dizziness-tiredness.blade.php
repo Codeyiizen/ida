@@ -18,7 +18,7 @@
                     </nav>
                     
                     <h1 class="h2 mb-3">@lang('dizziness-tiredness.h1')</h1>
-                     <img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/dizziness-tiredness.gif"
+                     <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/dizziness-tiredness.gif"
                     alt="Dizziness and Tiredness">
                     <p>@lang('dizziness-tiredness.p')</p>
                 </div>

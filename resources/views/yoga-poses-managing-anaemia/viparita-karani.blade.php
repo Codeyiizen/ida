@@ -17,19 +17,19 @@
                     <h4>@lang('yoga-poses-managing-anaemia.step') 1</h4>
                     <p>@lang('yoga-poses-managing-anaemia.vkStep1_p')</p>
                     <figure class="figure2">
-                        <img class="img-fluid" src="../assets/images/viparita-karani/image1.png"
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/viparita-karani/image1.png"
                             alt="Viparita Karani Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 2</h4>
                     <p>@lang('yoga-poses-managing-anaemia.vkStep2_p')</p>
                     <figure class="figure2">
-                        <img class="img-fluid" src="../assets/images/viparita-karani/image2.png"
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/viparita-karani/image2.png"
                             alt="Viparita Karani Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 3</h4>
                     <p>@lang('yoga-poses-managing-anaemia.vkStep3_p')</p>
                     <figure class="figure2">
-                        <img class="img-fluid" src="../assets/images/viparita-karani/image3.png"
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/viparita-karani/image3.png"
                             alt="Viparita Karani Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 4</h4>
@@ -38,7 +38,7 @@
                         <li>@lang('yoga-poses-managing-anaemia.vkStep4_li2')</li>
                     </ul>
                     <figure class="figure2">
-                        <img class="img-fluid" src="../assets/images/viparita-karani/image4.png"
+                        <img class="img-fluid" src="{{ url('/') }}/public/assets/images/viparita-karani/image4.png"
                             alt="Viparita Karani Yoga">
                     </figure>
                     <h4>@lang('yoga-poses-managing-anaemia.step') 5</h4>

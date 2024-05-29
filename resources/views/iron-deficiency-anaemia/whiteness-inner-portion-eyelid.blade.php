@@ -16,7 +16,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2 mb-3">Whiteness in the inner portion of the eyelid </h1> <img
-                        class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/whiteness-eye.jfif"
+                        class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/whiteness-eye.jfif"
                         alt="Whiteness in the inner portion of the eyelid">
                     <p> whitening of the inner portion of the
                         eyelid, known as palpebral conjunctiva, This is due to decrease in the production of

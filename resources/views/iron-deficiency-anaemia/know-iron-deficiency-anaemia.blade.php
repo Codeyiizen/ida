@@ -60,7 +60,7 @@
                 </button>
                 <p><strong>@lang('KnowaboutAnaemia.RBCs')</strong> @lang('KnowaboutAnaemia.critical')
                 </p>
-                <img class="img-fluid" src="../assets/images/iron-deficiency-anaemia/know-iron-deficiency-anaemia.gif"
+                <img class="img-fluid" src="{{ url('/') }}/public/assets/images/iron-deficiency-anaemia/know-iron-deficiency-anaemia.gif"
                     alt="RBCs">
             </div>
         </div>

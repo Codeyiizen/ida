@@ -17,7 +17,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2 mb-3">Fatigue</h1>
-                    <img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/fatigue.gif" alt="Fatigue">
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/fatigue.gif" alt="Fatigue">
                     <p> Without enough iron, the body cannot produce enough haemoglobin, and as a
                         result, there is a decrease in the amount of oxygen that can be carried to the
                         body's

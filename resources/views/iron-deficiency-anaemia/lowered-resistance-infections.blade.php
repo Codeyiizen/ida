@@ -16,7 +16,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2 mb-3">@lang('symptoms-anaemia.infections')</h1><img class="img-fluid alignright"
-                    src="../assets/images/sign-symptoms-iron/lowered-resistance-infections.gif"
+                    src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/lowered-resistance-infections.gif"
                     alt="Lowered resistance to infections">
                     <p>@lang('symptoms-anaemia.system')</p>                  
                 </div>

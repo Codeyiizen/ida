@@ -17,7 +17,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/yoga-poses-managing-anaemia/surya-namaskar.gif"
+                            <img src="{{ url('/') }}/public/assets/images/yoga-poses-managing-anaemia/surya-namaskar.gif"
                                 class="card-img-top rounded-0" alt="Surya Namaskar">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -33,7 +33,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/yoga-poses-managing-anaemia/pawanmuktasana.gif"
+                            <img src="{{ url('/') }}/public/assets/images/yoga-poses-managing-anaemia/pawanmuktasana.gif"
                                 class="card-img-top rounded-0" alt="Pawanmuktasana Yoga">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -49,7 +49,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/yoga-poses-managing-anaemia/sarvangasana.gif"
+                            <img src="{{ url('/') }}/public/assets/images/yoga-poses-managing-anaemia/sarvangasana.gif"
                                 class="card-img-top rounded-0" alt="Sarvangasana Yoga">
                         </figure>
                         <div class="card-body d-flex flex-column">
@@ -65,7 +65,7 @@
                 <div class="col-md-3">
                     <div class="card box-shadow hover-styled style-1">
                         <figure class="figure mb-0">
-                            <img src="assets/images/yoga-poses-managing-anaemia/viparita-karani.jfif"
+                            <img src="{{ url('/') }}/public/assets/images/yoga-poses-managing-anaemia/viparita-karani.jfif"
                                 class="card-img-top rounded-0" alt="Viparita Karani Yoga">
                         </figure>
                         <div class="card-body d-flex flex-column">

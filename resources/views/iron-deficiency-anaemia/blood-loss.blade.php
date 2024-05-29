@@ -16,7 +16,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2">@lang('blood-loss.Blood')</h1>
-                    <img class="img-fluid alignright" src="../assets/images/causes-anaemia/blood-loss.gif"
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/causes-anaemia/blood-loss.gif"
                         alt="Blood Loss">
                     <ul class="list-unstyled list-unordered mb-4">
                         <li>@lang('blood-loss.common')</li>
@@ -24,7 +24,7 @@
                         <li>@lang('blood-loss.Women')</li>
                     </ul>
                     <h4>@lang('blood-loss.diseases')</h4>
-                    <img class="img-fluid alignright" src="../assets/images/causes-anaemia/disease-treatments.gif"
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/causes-anaemia/disease-treatments.gif"
                         alt="Diseases and Disease Treatments">
                     <ul class="list-unstyled list-unordered mb-4">
                         <li>@lang('blood-loss.disorders')</li>

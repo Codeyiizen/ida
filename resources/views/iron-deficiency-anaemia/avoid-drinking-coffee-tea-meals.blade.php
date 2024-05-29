@@ -17,7 +17,7 @@
                     </nav>
                     <h1 class="h2">@lang('prevention-anaemia.drinking')</h1>
                     <img class="img-fluid alignright"
-                            src="../assets/images/prevention-anaemia/avoid-drinking-coffee-tea-meals.gif"
+                            src="{{ url('/') }}/public/assets/images/prevention-anaemia/avoid-drinking-coffee-tea-meals.gif"
                             alt="Avoid drinking coffee or tea with meals">
                     <p>@lang('prevention-anaemia.make')</p>
                     

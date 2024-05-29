@@ -17,7 +17,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2 mb-3">Whiteness in nails and palms</h1> <img class="img-fluid alignright"
-                        src="../assets/images/sign-symptoms-iron/whiteness-palm.jpg" alt="Whiteness in nails and palms">
+                        src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/whiteness-palm.jpg" alt="Whiteness in nails and palms">
                     <p>When the body is low in iron, it cannot produce enough
                         haemoglobin, leading to decreased oxygen levels in the blood and tissues. This lack
                         of

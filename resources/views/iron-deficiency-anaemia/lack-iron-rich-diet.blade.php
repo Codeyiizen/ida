@@ -16,7 +16,7 @@
                         </ol>
                     </nav>
                     <h1 class="h2">@lang('lack-iron-rich-diet.h1')</h1>
-                    <img class="img-fluid alignright" src="../assets/images/causes-anaemia/lack-iron-rich-diet.gif"
+                    <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/causes-anaemia/lack-iron-rich-diet.gif"
                         alt="Lack of iron rich diet">
                     <ul class="list-unstyled list-unordered mb-4">
                         <li>@lang('lack-iron-rich-diet.li_1')</li>

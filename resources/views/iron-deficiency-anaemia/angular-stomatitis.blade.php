@@ -15,7 +15,7 @@
                 </ol>
             </nav>
             <h1 class="h2 mb-3">Angular stomatitis</h1>
-            <img class="img-fluid alignright" src="../assets/images/sign-symptoms-iron/crack-mouth-corner.jfif"
+            <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/crack-mouth-corner.jfif"
                 alt="Angular stomatitis">
             <p> It is a condition characterized by cracks or fissures at the
                 corners of the mouth. While iron deficiency is one possible cause of angular
