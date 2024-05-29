@@ -18,14 +18,14 @@
     </footer>
     <!-- Javascript -->
     
-    <script src="assets/javascripts/jquery-1.11.2.min.js"></script>
-    <script src="assets/javascripts/popper.js"></script>
-    <script src="assets/javascripts/bootstrap.bundle.js"></script>
-    <script src="assets/javascripts/bootstrap.js"></script>
-    <script src="assets/javascripts/all.js"></script>
-    <script src="assets/javascripts/meanmenu.js"></script>
+    <script src="{{ url('/') }}/assets/javascripts/jquery-1.11.2.min.js"></script>
+    <script src="{{ url('/') }}/assets/javascripts/popper.js"></script>
+    <script src="{{ url('/') }}/assets/javascripts/bootstrap.bundle.js"></script>
+    <script src="{{ url('/') }}/assets/javascripts/bootstrap.js"></script>
+    <script src="{{ url('/') }}/assets/javascripts/all.js"></script>
+    <script src="{{ url('/') }}/assets/javascripts/meanmenu.js"></script>
     <!-- Custom JS Code for this page -->
-    <script src="assets/javascripts/main.js"></script>
+    <script src="{{ url('/') }}/assets/javascripts/main.js"></script>
 
     <script type="text/javascript">  
     var url = "{{ route('LangChange') }}";  

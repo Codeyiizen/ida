@@ -22,8 +22,8 @@ use Illuminate\Support\Facades\Session;
 //     })->middleware('setLocale');
 // });
 
-$sessionData = Session::get('data'); 
-  Route::get('/', function () {
+
+  Route::get('/', function () {  
     $data = session('data');  
     return view('welcome');
 });
@@ -114,4 +114,5 @@ Route::get('change/lang', [App\Http\Controllers\HomeController::class, 'lang_cha
 
 
 Route::post('save/phone', [App\Http\Controllers\HomeController::class, 'savePhone'])->name('savePhone');
+Route::post('calculate/bmi', [App\Http\Controllers\HomeController::class, 'calculateBmi'])->name('calculate-bmi');
 

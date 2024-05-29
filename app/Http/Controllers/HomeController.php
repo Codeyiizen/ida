@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Cookie;
 use App;
 use App\Models\phones;
+use Redirect;
 
 class HomeController extends Controller
 {
@@ -262,7 +263,25 @@ public function viparitaKarani(){
     $phone->phone = $request->mobile;
     $phone->save();
     return redirect()->route('health-status');
+  }
 
+  public function calculateBmi(Request $request){ 
+    $request->validate([
+        'age' => 'required|required', 
+        'weight' => 'required|required',
+        'height' => 'required|required',
+        'hemoglobin' => 'required|required',
+        'symptoms' => 'required|required',
+    ]);
+    $weight = $request->weight;
+    $height = $request->height;
+   // $imc = $weight / ($height^2);
+    $result = $weight / ($height/100)**2;
+    return Redirect::route('health-status')->with( ['data' => $result] );
+  }
+
+  public function lossAppetite(){ 
+    return view('iron-deficiency-anaemia.loss-appetite');
   }
 
 }
