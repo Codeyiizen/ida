@@ -8,35 +8,58 @@
                     <h3 class="bg-info text-center text-white mb-4">@lang('health-status.title')</h3>
                     <div class="row mb-4">
                         <div class="col-md-8 offset-md-2">
-                            <form action="" class="form mb-4 mb-md-0">
+                            <form action="{{ route('calculate-bmi') }}" class="form mb-4 mb-md-0" method="post">
+                                @csrf
                                 <div class="form-group row mb-3">
-                                    <label class="col-3 form-label text-right mb-0" for="age">@lang('health-status.age')</label>
+                                    <label class="col-3 form-label text-right mb-0"
+                                        for="age">@lang('health-status.age')</label>
                                     <div class="col-9">
                                         <input class="form-control" placeholder="" type="number" name="age" id="age"
                                             min="18" max="100">
-                                        <!-- <small id="ageHelp" class="form-text text-muted">Age between 18 yrs to 49
-                                                    yrs</small> -->
+                                        <span class="text-danger mt-4">
+                                            @error('age')
+                                            {{ $message }}
+                                            @enderror
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right mb-0" for="age">@lang('health-status.Weight')</label>
+                                    <label class="col-3 form-label text-right mb-0"
+                                        for="age">@lang('health-status.Weight')</label>
                                     <div class="col-9">
                                         <input class="form-control" placeholder="" type="number" name="weight"
                                             id="weight" min="1" max="200">
+                                            <span class="text-danger mt-4">
+                                            @error('weight')
+                                            {{ $message }}
+                                            @enderror
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right mb-0" for="height">@lang('health-status.Height')</label>
+                                    <label class="col-3 form-label text-right mb-0"
+                                        for="height">@lang('health-status.Height')</label>
                                     <div class="col-9">
-                                        <input class="form-control" placeholder="" type="number" name="height"
+                                        <input class="form-control" placeholder=""  name="height"
                                             id="height">
+                                            <span class="text-danger mt-4">
+                                            @error('height')
+                                            {{ $message }}
+                                            @enderror
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right" for="hemoglobin">@lang('health-status.Hemoglobin')</label>
+                                    <label class="col-3 form-label text-right"
+                                        for="hemoglobin">@lang('health-status.Hemoglobin')</label>
                                     <div class="col-9">
                                         <input class="form-control" placeholder="" type="number" name="hemoglobin"
                                             id="hemoglobin">
+                                            <span class="text-danger mt-4">
+                                            @error('hemoglobin')
+                                            {{ $message }}
+                                            @enderror
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
@@ -105,7 +128,9 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <a href="{{ route('home') }}" class="btn btn-primary">@lang('health-status.Calculate')</a>
+                                    <!-- <a href="{{ route('home') }}" class="btn btn-primary">@lang('health-status.Calculate')</a> -->
+                                    <button type="submit"
+                                        class="btn btn-primary">@lang('health-status.Calculate')</button>
                                 </div>
                             </form>
                         </div>
@@ -116,7 +141,8 @@
                             <div class="card bg-info mb-4 d-inline-block">
                                 <div class="card-body">
                                     <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
-                                    <h3 class="text-center mb-0 text-white"><span class="bmi-result">170.07</span>
+                                    
+                                    <h3 class="text-center mb-0 text-white"><span class="bmi-result">{{Session::get('data')}}</span>
                                     </h3>
                                 </div>
                             </div>

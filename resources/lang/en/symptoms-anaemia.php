@@ -27,4 +27,13 @@ return [
     'white'     =>'Whiteness in nails and palms',
     'Headaches' =>'Headaches',
 
+
+    'infections'=>'Lowered resistance to infections',
+    'system'=>'Iron is an essential nutrient that is required for the
+            proper functioning of the immune system. When iron levels are low, the body may not
+            be
+            able to produce enough immune cells; this can lead to lowered resistance to
+            infections,
+            making it easier for viruses, bacteria, to take hold in the body.'
+
 ];
