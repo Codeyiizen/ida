@@ -12,17 +12,13 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="{{ route('symptoms-anaemia') }}">Symptoms of
                                     Anaemia</a></li>
-                            <li class="breadcrumb-item active">Whiteness in the inner portion of the eyelid </li>
+                            <li class="breadcrumb-item active">@lang('symptoms-anaemia.eyelid')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Whiteness in the inner portion of the eyelid </h1> <img
+                    <h1 class="h2 mb-3">@lang('symptoms-anaemia.eyelid')</h1> <img
                         class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/whiteness-eye.jfif"
                         alt="Whiteness in the inner portion of the eyelid">
-                    <p> whitening of the inner portion of the
-                        eyelid, known as palpebral conjunctiva, This is due to decrease in the production of
-                        haemoglobin, which is responsible for carrying oxygen to the tissues of the body.
-                        Without enough haemoglobin, the tissues, including the conjunctiva, become pale or
-                        white.</p>
+                    <p> @lang('symptoms-anaemia.inner')</p>
                 </div>
             </section>
         </div>

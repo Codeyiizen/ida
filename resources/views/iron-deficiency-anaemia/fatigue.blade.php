@@ -13,17 +13,12 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="{{ route('symptoms-anaemia') }}">Symptoms of
                                     Anaemia</a></li>
-                            <li class="breadcrumb-item active">fatigue</li>
+                            <li class="breadcrumb-item active">@lang('symptoms-anaemia.fatigues')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Fatigue</h1>
+                    <h1 class="h2 mb-3">@lang('symptoms-anaemia.fatigues')</h1>
                     <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/fatigue.gif" alt="Fatigue">
-                    <p> Without enough iron, the body cannot produce enough haemoglobin, and as a
-                        result, there is a decrease in the amount of oxygen that can be carried to the
-                        body's
-                        tissues and organs. This lack of oxygen can lead to fatigue, weakness, and shortness
-                        of
-                        breath.</p>                  
+                    <p> @lang('symptoms-anaemia.Without')</p>                  
                 </div>
             </section>
         </div>

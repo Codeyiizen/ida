@@ -12,17 +12,13 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="{{ route('symptoms-anaemia') }}">Symptoms of
                                     Anaemia</a></li>
-                            <li class="breadcrumb-item active">Loss of appetite</li>
+                            <li class="breadcrumb-item active">@lang('symptoms-anaemia.Loss')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Loss of appetite</h1><img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/loss-appetite.gif"
+                    <h1 class="h2 mb-3">@lang('symptoms-anaemia.Loss')</h1><img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/loss-appetite.gif"
                     alt="Loss of appetite">
-                    <p>If the body may not be getting enough oxygen due to a lack of
-                        haemoglobin in the blood, which can cause feelings of fatigue, weakness, and
-                        malaise,
-                        and may reduce the desire to eat.</p>
-                    <p>Iron deficiency anaemia can lead to gastrointestinal symptoms such as abdominal pain,
-                        nausea, and vomiting, which may also contribute to a loss of appetite.</p>
+                    <p>@lang('symptoms-anaemia.may')</p>
+                    <p>@lang('symptoms-anaemia.Iron')</p>
                                        
                 </div>
             </section>
