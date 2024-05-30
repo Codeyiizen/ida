@@ -8,15 +8,13 @@
                             <li class="breadcrumb-item" aria-current="page"><a href="{{ route('home') }}">Dashboard</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a
                                     href="{{ route('disease-management-through-diet') }}">Disease management through diet</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Drug Instructions</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('disease-management-through-diet.cardThreeH4')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-4">Drug Instructions</h1>
+                    <h1 class="h2 mb-4">@lang('disease-management-through-diet.cardThreeH4')</h1>
                     <ul class="list-unstyled list-unordered mb-3">
-                        <li>Do not consume iron supplements along with calcium supplements and antibiotics. It can be
-                            consumed along with multivitamins such as, vitamin B and C. </li>
-                        <li>It is good to consume iron tablets with fruit juices such as orange juice, lime juice etc.
-                            for the better absorption.</li>
+                        <li>@lang('disease-management-through-diet.drugs-instruction_li1')</li>
+                        <li>@lang('disease-management-through-diet.drugs-instruction_li2')</li>
                     </ul>
                 </div>
             </section>

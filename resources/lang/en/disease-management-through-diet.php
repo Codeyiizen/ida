@@ -116,11 +116,22 @@ return [
 
     //Drugs Instruction
     'cardThreeH4' => 'Drugs Instruction',
-  
+    'drugs-instruction_li1' =>'Do not consume iron supplements along with calcium supplements and antibiotics. It can be consumed along with multivitamins such as, vitamin B and C.',
+    'drugs-instruction_li2' =>'It is good to consume iron tablets with fruit juices such as orange juice, lime juice etc. for the better absorption.',
+    
 
     //Foods to Avoid
     'cardFourH4' => 'Foods to Avoid',
-    'cardFourP' => 'Start with the supine position, lying on your back in a relaxed way. Let the hands rest on the floor next...',
+    'alcohol' =>'Alcohol',
+    'alcohol_p' =>'Alcohol can create adverse effects and worsen anemia symptoms in people who consume it regularly and also seems to inhibit iron absorption.',
+    'coffee' =>'Coffee',
+    'coffee_p' =>'Coffee can also keep you from absorbing iron into your system. Avoid it within an hour either way of an iron supplement or iron rich meal.',
+    'calcium-foods' =>'Calcium rich Foods',
+    'calcium-foods_p' =>'Calcium interferes with the absorption of iron in the body thereby worsening the condition. Avoid eating dairy products two hours before and after you consume iron-rich foods.',
+    'gluten-containing-foods' =>'Gluten-containing foods',
+    'gluten-containing-foods_p' =>'Gluten, in some people, damages the intestinal wall preventing absorption of iron and folic acid, both of which are required for the production of red blood cells (RBCs). Gluten is mainly found in pasta, wheat products, barley, rye and oats.',
+        
+    'foods-avoid_li1' =>'Reduce sugar consumption.',
 
     //Diet Plan for Anaemia Patient
     'cardFiveH4' => 'Diet Plan for Anaemia Patient',
