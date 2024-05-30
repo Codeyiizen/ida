@@ -13,13 +13,13 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="{{ route('symptoms-anaemia') }}">Symptoms of
                                     Anaemia</a></li>
-                            <li class="breadcrumb-item active">Headaches</li>
+                            <li class="breadcrumb-item active">@lang('symptoms-anaemia.Headachess')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Headaches</h1>
+                    <h1 class="h2 mb-3">@lang('symptoms-anaemia.Headachess')</h1>
                     <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/headache-crop.gif"
                             alt="Headaches">
-                    <p>Headaches are a possible symptom of anemia. Some experts believe that iron is involved in making serotonin, a chemical messenger in the body. People who experience migraine have altered serotonin levels.</p>
+                    <p>@lang('symptoms-anaemia.possible')</p>
                    
                 </div>
             </section>

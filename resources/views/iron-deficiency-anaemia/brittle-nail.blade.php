@@ -12,14 +12,13 @@
                                     Deficiency Anaemia</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="{{ route('symptoms-anaemia') }}">Symptoms of
                                     Anaemia</a></li>
-                            <li class="breadcrumb-item active">Brittle nail (spoon shaped nail)</li>
+                            <li class="breadcrumb-item active">@lang('symptoms-anaemia.nail')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Brittle nail (spoon shaped nail) </h1>
+                    <h1 class="h2 mb-3">@lang('symptoms-anaemia.nail')</h1>
                     <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/sign-symptoms-iron/spoon-shaped-nail.gif"
                     alt="Brittle nail (spoon shaped nail)">
-                    <p>Iron is important for healthy nail growth, and a lack
-                        of iron in the body can cause nails to become brittle and break easily.</p>                                      
+                    <p>@lang('symptoms-anaemia.cause')</p>                                      
                 </div>
             </section>
         </div>
