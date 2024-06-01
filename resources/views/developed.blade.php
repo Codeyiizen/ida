@@ -14,14 +14,12 @@
         <div class="container">
             <div class="card box-shadow text-center">
                 <div class="card-body">
-                    <h2>Developed By</h2>
-                    <p class="brand-color"><strong>Aakanksha Pandey - L-2018 -HSC-114-D <br
-                                class="d-md-block d-none" />(Ph.D. Student)</strong></p>
-                    <p>Department of Extension Education and Communication Management,<br class="d-md-block d-none" />
-                        College of Community Science,<br class="d-md-block d-none" />
-                        PAU, Ludhiana.
-                    </p>
-                    <p><strong>Language:</strong> English and Punjabi</p>
+                    <h2>@lang('auth.developed')</h2>
+                    <p class="brand-color"><strong>@lang('auth.aakanksha-pandey') - L-2018 -HSC-114-D <br
+                                class="d-md-block d-none" />(@lang('auth.phd-student'))</strong></p>
+                    <p>@lang('auth.advisor')</p>
+                    <p>@lang('auth.department')</p>
+                    <p><strong>@lang('auth.language'):</strong> @lang('auth.english-punjabi')</p>
                 </div>
             </div>
         </div>

@@ -15,7 +15,7 @@ return [
 
     //--- Locally available iron and vitamin C rich food ---------------//
     'cardOneH1' => 'Locally available iron and vitamin C rich food',
-   
+
     'cardOneP_2' => 'The following food items are included in diet meal plan for people suffering from iron deficiency anemia:',
   
     //Cereals
@@ -134,7 +134,8 @@ return [
     'foods-avoid_li1' =>'Reduce sugar consumption.',
 
     //Diet Plan for Anaemia Patient
-    'cardFiveH4' => 'Diet Plan for Anaemia Patient',
+    'cardFiveH4' => 'Diet Plan for Iron Deficiency Anaemia Patient',
+    'cardFive_p' => 'To recover from anemia quickly, we create a diet plan that includes iron-rich food items.',  
 
     // vegetarians-day1  Start
     'diet'=>'Iron rich diet for Vegetarians',

@@ -2355,6 +2355,7 @@ ol.list-ordered li:before {
     color: #1a1a1a;
     padding: .35rem .5rem;
     border-radius: 6px;
+    text-transform: capitalize;
 }
 
 .diet-type a:hover,

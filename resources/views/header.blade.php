@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Iron Deficiency Anaemia (IDA) Management">
+    <meta name="title" content="@lang('auth.sign1')">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
 
     <!-- Page Title & Favicon -->
-    <title>Iron Deficiency Anaemia (IDA) Management</title>
+    <title>@lang('auth.sign1')</title>
     <link rel="shortcut icon" href="{{url('/')}}/public/assets/images/fevicon.png" type="image/x-icon">
 
     <!--stylesherets-->
@@ -37,15 +37,14 @@
                                 <img class="img-fluid rounded" src="{{ url('/') }}/public/assets/images/logo.png"
                                     alt="Iron Deficiency Anaemia (IDA) Management">
                             </a>
-                            <h4 class="mb-0 ml-3 d-inline-block text-white">Food Based Management System of
-                                Iron Deficiency Anaemia</h4>
+                            <h4 class="mb-0 ml-3 d-inline-block text-white">@lang('auth.logoText')</h4>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-2 d-lg-flex justify-content-lg-end align-items-lg-center">
                         <div class="mobile-menu clearfix"></div>
                         <nav id="main-menu">
                             <ul class="list-unstyled">
-                                <li><a href="{{ route('home') }}">Dashboard</a></li>
+                                <li><a href="{{ route('home') }}">@lang('auth.dashboard')</a></li>
 
                                 <!-- <li><a href="contact-us.html">Language<i class="fas fa-angle-down ml-2"></i></a>
                                     <ul class="list-unstyled">
@@ -63,7 +62,7 @@
                                         </select>
                                     </span>
                                 </li>
-                                <li><a href="{{ route('contactus') }}">Contact Us</a></li>
+                                <li><a href="{{ route('contactus') }}">@lang('auth.contact-us')</a></li>
                                 <li class="brand d-lg-none"><img class="img-fluid mx-auto" src="{{ url('/') }}/public/assets/images/pau.png"
                                         alt="Punjab Agricultural University"></li>
                             </ul>

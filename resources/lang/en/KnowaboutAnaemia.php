@@ -14,7 +14,7 @@ return [
     */
     
     'title' =>'Know about Anaemia',
-    'an'    =>'resources/lang/pn/KnowaboutAnaemia.php',
+    'an'    =>'An (without) -aemia (blood).(Shortage of iron in the body)',
     'Anaemia'    =>'Anaemia can be defined as a reduction in the hemoglobin level, or red blood cell counts.',
     'hemoglobin' =>'hemoglobin',
     'level'    =>'level, or',
