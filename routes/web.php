@@ -88,7 +88,7 @@ Route::get('diet-plan-anaemia-patient', [App\Http\Controllers\HomeController::cl
 Route::get('vegetarians-day1', [App\Http\Controllers\HomeController::class, 'vegetariansDay1'])->name('vegetarians-day1');
 Route::get('vegetarians-day2', [App\Http\Controllers\HomeController::class, 'vegetariansDay2'])->name('vegetarians-day2');
 Route::get('vegetarians-day3', [App\Http\Controllers\HomeController::class, 'vegetariansDay3'])->name('vegetarians-day3');   
-Route::get('vegetarians-day4', [App\Http\Controllers\HomeController::class, 'vegetariansDay3'])->name('vegetarians-day4');  
+Route::get('vegetarians-day4', [App\Http\Controllers\HomeController::class, 'vegetariansDay4'])->name('vegetarians-day4');  
 Route::get('vegetarians-day5', [App\Http\Controllers\HomeController::class, 'vegetariansDay5'])->name('vegetarians-day5'); 
 Route::get('vegetarians-day6', [App\Http\Controllers\HomeController::class, 'vegetariansDay6'])->name('vegetarians-day6'); 
 Route::get('vegetarians-day7', [App\Http\Controllers\HomeController::class, 'vegetariansDay7'])->name('vegetarians-day7');  
@@ -96,7 +96,7 @@ Route::get('vegetarians-day7', [App\Http\Controllers\HomeController::class, 'veg
 Route::get('non-vegetarians-day1', [App\Http\Controllers\HomeController::class, 'NonVegetariansDay1'])->name('non-vegetarians-day1');
 Route::get('non-vegetarians-day2', [App\Http\Controllers\HomeController::class, 'NonVegetariansDay2'])->name('non-vegetarians-day2');
 Route::get('non-vegetarians-day3', [App\Http\Controllers\HomeController::class, 'NonVegetariansDay3'])->name('non-vegetarians-day3');   
-Route::get('non-vegetarians-day4', [App\Http\Controllers\HomeController::class, 'NonVegetariansDay3'])->name('non-vegetarians-day4');  
+Route::get('non-vegetarians-day4', [App\Http\Controllers\HomeController::class, 'NonVegetariansDay4'])->name('non-vegetarians-day4');  
 Route::get('non-vegetarians-day5', [App\Http\Controllers\HomeController::class, 'NonVegetariansDay5'])->name('non-vegetarians-day5'); 
 Route::get('non-vegetarians-day6', [App\Http\Controllers\HomeController::class, 'NonVegetariansDay6'])->name('non-vegetarians-day6'); 
 Route::get('non-vegetarians-day7', [App\Http\Controllers\HomeController::class, 'NonVegetariansDay7'])->name('non-vegetarians-day7'); 

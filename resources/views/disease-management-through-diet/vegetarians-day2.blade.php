@@ -14,62 +14,60 @@
                                     href="{{ route('diet-plan-anaemia-patient') }}">Diet Plan
                                     for Iron deficiency Anaemia
                                     Patient</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Iron rich diet for Vegetarians</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('disease-management-through-diet.diet')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Iron rich diet for <span class="brand-color">Vegetarians</span></h1>
-                    <h3 class="text-center mb-4">Day 2</h3>
+                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for')<span class="brand-color">@lang('disease-management-through-diet.Vegetarians')</span></h1>
+                    <h3 class="text-center mb-4">@lang('disease-management-through-diet.Day2')</h3>
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
                             <div class="card bg-green box-shadow2">
                                 <div class="card-body">
                                     <div class="diet-chart-container">
                                         <div class="diet-chart-item">
-                                            <h5>Early Morning :</h5>
+                                            <h5>@lang('disease-management-through-diet.Morning')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Tea/Milk-1 cup</li>
-                                                <li>Methi mathri-2</li>
+                                                <li>@lang('disease-management-through-diet.cups')</li>
+                                                <li>@lang('disease-management-through-diet.methi')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Breakfast :</h5>
+                                            <h5>@lang('disease-management-through-diet.Breakfast')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Broccoli and spinach wrap -1</li>
-                                                <li>Pudina and Amla chatni-1 Tsp</li>
+                                                <li>@lang('disease-management-through-diet.wrap')</li>
+                                                <li>@lang('disease-management-through-diet.pudinaa')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Mid Morning :</h5>
+                                            <h5>@lang('disease-management-through-diet.Morning')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Sprouts salad /Ragi and Bajra veg poha- ½ Bowl</li>
-                                                <li>Kinnow/Orange- 1 Medium</li>
+                                                <li>@lang('disease-management-through-diet.bajraa')</li>
+                                                <li>@lang('disease-management-through-diet.kinnow')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Lunch :</h5>
+                                            <h5>@lang('disease-management-through-diet.Lunch')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Wheat ,Ragi, bajra, jwar mix daliya/Carrot and green pea rice -
-                                                    1/2
-                                                    Bowl
+                                                <li>@lang('disease-management-through-diet.ragi')
                                                 </li>
-                                                <li>Curd - 1 katorie</li>
-                                                <li>Salad (lettuce, Beetroot, lemon) - 1 katorie</li>
+                                                <li>@lang('disease-management-through-diet.katories')</li>
+                                                <li>@lang('disease-management-through-diet.lemonm')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Evening Snacks :</h5>
+                                            <h5>@lang('disease-management-through-diet.snacks')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Tomato soup-1 Bowl</li>
-                                                <li>Dates-2</li>
+                                                <li>@lang('disease-management-through-diet.soup')</li>
+                                                <li>@lang('disease-management-through-diet.Dates')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Dinner :</h5>
+                                            <h5>@lang('disease-management-through-diet.Dinner')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Fenugreek and corn curry/Drumstick curry - 1 Bowl</li>
-                                                <li>Multigrain roti( Ragi,Bajra,jwar,wheat)-2</li>
-                                                <li>Salad</li>
-                                                <li>Fresh lime water</li>
+                                                <li>@lang('disease-management-through-diet.curry')</li>
+                                                <li>@lang('disease-management-through-diet.wheat')</li>
+                                                <li>@lang('disease-management-through-diet.salad')</li>
+                                                <li>@lang('disease-management-through-diet.waters')</li>
                                             </ul>
                                         </div>
                                     </div>
