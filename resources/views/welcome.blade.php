@@ -55,7 +55,8 @@
         <div class="container">
             <div class="row align-items-lg-center">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-75 rounded d-lg-block d-none" src="{{ url('/') }}/public/assets/images/logo.png"
+                    <img class="img-fluid w-75 rounded d-lg-block d-none"
+                        src="{{ url('/') }}/public/assets/images/logo.png"
                         alt="Iron Deficiency Anaemia (IDA) Management">
                 </div>
                 <div class="col-lg-5 offset-lg-1">
@@ -66,19 +67,19 @@
                                 <p class="fs-3">@lang('auth.sign1')</p>
                             </div>
                             <form action="{{ route('savePhone') }}" class="form mb-0" method="post">
-                             @csrf
-                             <span class="text-danger">
-                                        @error('mobile')
-                                            {{ $message }}
-                                        @enderror
-                            </span>
+                                @csrf
+                                @error('mobile')
+                                <div class="alert alert-danger">                                   
+                                    {{ $message }}
+                                </div>                                
+                                @enderror
                                 <div class="form-group mb-4">
                                     <label for="phone">@lang('auth.sign2')</label>
                                     <input class="form-control" placeholder="e.g. +91 xxxx xxxx xx" type="number"
                                         name="mobile" id="phone">
                                 </div>
                                 <!-- <a href="{{ route('health-status') }}" class="btn btn-primary btn-block">@lang('auth.login')</a> -->
-                                <button  class="btn btn-primary btn-block">@lang('auth.login')</button>
+                                <button class="btn btn-primary btn-block">@lang('auth.login')</button>
                             </form>
                         </div>
                     </div>
@@ -93,6 +94,3 @@
 </body>
 
 </html>
-
-
-

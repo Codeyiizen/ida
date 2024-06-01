@@ -10,11 +10,10 @@
                     <li class="breadcrumb-item" aria-current="page"><a
                             href="{{ route('disease-management-through-diet') }}">Disease management through diet</a>
                     </li>
-                    <li class="breadcrumb-item active" aria-current="page">Diet Plan for Iron deficiency Anaemia
-                        Patient</li>
+                    <li class="breadcrumb-item active" aria-current="page">@lang('disease-management-through-diet.cardFiveH4')</li>
                 </ol>
             </nav>
-            <h1 class="h2 mb-3">Diet Plan for Iron deficiency Anaemia Patient</h1>
+            <h1 class="h2 mb-3">@lang('disease-management-through-diet.cardFiveH4')</h1>
             <h4>@lang('diet-plan-anaemia-patient.1week-diet-plan')</h4>
             <p class="mb-5">@lang('diet-plan-anaemia-patient.1week-diet-plan_p')</p>
             <div class="week-diet-plans">

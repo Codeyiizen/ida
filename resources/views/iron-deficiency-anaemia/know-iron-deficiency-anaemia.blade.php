@@ -15,14 +15,14 @@
             <h1 class="h2 mb-4">@lang('KnowaboutAnaemia.title')</h1>
             <ul class="list-unstyled list-unordered mb-3">
                 <li>@lang('KnowaboutAnaemia.an')</li>
-                <li> @lang('KnowaboutAnaemia.Anaemia')<a href="" data-toggle="modal"
+                <li> @lang('KnowaboutAnaemia.Anaemia') <a href="" data-toggle="modal"
                         data-target="#hemoglobinModal">@lang('KnowaboutAnaemia.hemoglobin') </a> @lang('KnowaboutAnaemia.level') <a href="" data-toggle="modal"
                         data-target="#rbcModal">@lang('KnowaboutAnaemia.red')</a>.</li>
                 <li>@lang('KnowaboutAnaemia.condition')
                 </li>
             </ul>
             <h4>@lang('KnowaboutAnaemia.Iron')</h4>
-            <img class="img-fluid alignright" src="../assets/images/iron-deficiency-anaemia.gif"
+            <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/iron-deficiency-anaemia.gif"
                 alt="Iron Deficiency Anaemia">
             <ul class="list-unstyled list-unordered mb-3">
                 <li>@lang('KnowaboutAnaemia.deficiency')</li>
