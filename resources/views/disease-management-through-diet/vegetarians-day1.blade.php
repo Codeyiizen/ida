@@ -14,63 +14,61 @@
                                     href="{{ route('diet-plan-anaemia-patient') }}">Diet Plan
                                     for Iron deficiency Anaemia
                                     Patient</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Iron rich diet for Vegetarians</li>
+                            <li class="breadcrumb-item active" aria-current="page">@lang('disease-management-through-diet.diet')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">Iron rich diet for <span class="brand-color">Vegetarians</span></h1>
-                    <h3 class="text-center mb-4">Day 1</h3>
+                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for')<span class="brand-color">@lang('disease-management-through-diet.Vegetarians')</span></h1>
+                    <h3 class="text-center mb-4">@lang('disease-management-through-diet.Day')</h3>
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
                             <div class="card bg-green box-shadow2">
                                 <div class="card-body">
                                     <div class="diet-chart-container">
                                         <div class="diet-chart-item">
-                                            <h5>Early Morning</h5>
+                                            <h5>@lang('disease-management-through-diet.Morning')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Tea/Milk - 1 cup</li>
-                                                <li>Roasted Chana</li>
+                                                <li>@lang('disease-management-through-diet.cup')</li>
+                                                <li>@lang('disease-management-through-diet.Roasted')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Breakfast</h5>
+                                            <h5>@lang('disease-management-through-diet.Breakfast')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Bajra Spinach Uthappam - 2</li>
-                                                <li>Amla and pudina chatni- 1tbsp</li>
+                                                <li>@lang('disease-management-through-diet.bajra')</li>
+                                                <li>@lang('disease-management-through-diet.pudina')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Mid Morning</h5>
+                                            <h5>@lang('disease-management-through-diet.mid')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Mix fruit juice (Carrot, Orange, beetroot, Pomegranate)-1 Glass
-                                                <li>Soaked almonds - 3 </li>
+                                                <li>@lang('disease-management-through-diet.beetroot')
+                                                <li>@lang('disease-management-through-diet.almonds')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Lunch</h5>
+                                            <h5>@lang('disease-management-through-diet.Lunch')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Masoor Daal- ½ bowl</li>
-                                                <li>Mix veg dry (capsicum, broccoli, carrot, onion, tomato, beans) -
-                                                    ½
-                                                    bowl
+                                                <li>@lang('disease-management-through-diet.daal')</li>
+                                                <li>@lang('disease-management-through-diet.veg')
                                                 </li>
-                                                <li>Roti(Bajra, Ragi,Wheat)-2</li>
-                                                <li>Salad (lettuce ,beetroot, Tomato) -1 katorie</li>
-                                                <li>Curd</li>
+                                                <li>@lang('disease-management-through-diet.roti')</li>
+                                                <li>@lang('disease-management-through-diet.katorie')</li>
+                                                <li>@lang('disease-management-through-diet.Curd')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Evening Snacks</h5>
+                                            <h5>@lang('disease-management-through-diet.snacks')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Lemonade - 1 glass</li>
-                                                <li>Dates-3, roasted sesame seeds with jaggary - ½ tsp</li>
+                                                <li>@lang('disease-management-through-diet.glass')</li>
+                                                <li>@lang('disease-management-through-diet.sesame')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
-                                            <h5>Dinner</h5>
+                                            <h5>@lang('disease-management-through-diet.Dinner')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>Soya bean vegetable -1 bowl</li>
-                                                <li>Multigrain roti-2</li>
-                                                <li>Salad with fresh lime water</li>
+                                                <li>@lang('disease-management-through-diet.soya')</li>
+                                                <li>@lang('disease-management-through-diet.rotis')</li>
+                                                <li>@lang('disease-management-through-diet.water')</li>
                                             </ul>
                                         </div>
                                     </div>

@@ -175,7 +175,7 @@ public function vegetariansDay1(){
     return view('disease-management-through-diet.vegetarians-day1');
 }
 
-public function vegetariansDay2(){
+public function vegetariansDay2(){ 
     return view('disease-management-through-diet.vegetarians-day2');
 }
 
