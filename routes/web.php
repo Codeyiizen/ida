@@ -24,8 +24,9 @@ use Illuminate\Support\Facades\Session;
 
 
   Route::get('/', function () {  
+   $lan = Config::get('app.locale');  
     $data = session('data');  
-    return view('welcome');
+    return view('welcome', compact('lan'));
 });
 
 Route::get('/route-cache', function () {  

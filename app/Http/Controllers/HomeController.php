@@ -7,6 +7,7 @@ use Cookie;
 use App;
 use App\Models\phones;
 use Redirect;
+use Config;
 
 class HomeController extends Controller
 {
@@ -27,7 +28,8 @@ class HomeController extends Controller
     }
 
     public function healthStatus(){
-        return view('health-status');
+        $lan = Config::get('app.locale'); 
+        return view('health-status',compact('lan'));
     }
 
     public function pub(){ 

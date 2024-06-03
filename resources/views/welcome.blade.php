@@ -70,7 +70,11 @@
                                 @csrf
                                 @error('mobile')
                                 <div class="alert alert-danger">                                   
-                                    {{ $message }}
+                                    @if ($lan == 'en')
+                                    The mobile field is required.  
+                                    @else
+                                    ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                    @endif
                                 </div>                                
                                 @enderror
                                 <div class="form-group mb-4">
