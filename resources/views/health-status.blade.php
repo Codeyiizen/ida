@@ -18,7 +18,11 @@
                                             min="18" max="100">
                                         <span class="text-danger mt-4">
                                             @error('age')
-                                            {{ $message }}
+                                            @if ($lan == 'en')
+                                                The mobile field is required.  
+                                                @else
+                                                ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                                @endif
                                             @enderror
                                         </span>
                                     </div>
@@ -31,7 +35,11 @@
                                             id="weight" min="1" max="200">
                                             <span class="text-danger mt-4">
                                             @error('weight')
-                                            {{ $message }}
+                                              @if ($lan == 'en')
+                                                The mobile field is required.  
+                                                @else
+                                                ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                                @endif
                                             @enderror
                                         </span>
                                     </div>
@@ -44,7 +52,11 @@
                                             id="height">
                                             <span class="text-danger mt-4">
                                             @error('height')
-                                            {{ $message }}
+                                             @if ($lan == 'en')
+                                                The mobile field is required.  
+                                                @else
+                                                ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                                @endif
                                             @enderror
                                         </span>
                                     </div>
@@ -55,9 +67,13 @@
                                     <div class="col-9">
                                         <input class="form-control" placeholder="" type="number" name="hemoglobin"
                                             id="hemoglobin">
-                                            <span class="text-danger mt-4">
+                                        <span class="text-danger mt-4">
                                             @error('hemoglobin')
-                                            {{ $message }}
+                                            @if ($lan == 'en')
+                                                The mobile field is required.  
+                                                @else
+                                                ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                                @endif
                                             @enderror
                                         </span>
                                     </div>
@@ -130,32 +146,55 @@
                                 <div class="text-center">
                                     <!-- <a href="{{ route('home') }}" class="btn btn-primary">@lang('health-status.Calculate')</a> -->
                                     <button type="submit"
-                                        class="btn btn-primary">@lang('health-status.Calculate')</button>
+                                        class="btn btn-primary showBmi">@lang('health-status.Calculate')</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <hr />
-                    <div class="row justify-content-center">
-                        <div class="col-md-4">
-                            <div class="card bg-info mb-4 d-inline-block">
-                                <div class="card-body">
-                                    <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
-                                    
-                                    <h3 class="text-center mb-0 text-white"><span class="bmi-result">{{Session::get('data')}}</span>
-                                    </h3>
+                    @if (Session::get('data') == '')
+                        <div class="row justify-content-center bmiShow d-none">
+                            <div class="col-md-4">
+                                <div class="card bg-info mb-4 d-inline-block">
+                                    <div class="card-body">
+                                        <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
+                                        
+                                        <h3 class="text-center mb-0 text-white"><span class="bmi-result">{{Session::get('data')}}</span>
+                                        </h3>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="col-md-4 text-right">
+                                <figure class="figure2">
+                                    <img class="img-fluid" src="{{ url('/') }}/public/assets/images/ida-detection.gif" alt="IDA Detection">
+                                </figure>
+                            </div>
                         </div>
-                        <div class="col-md-4 text-right">
-                            <figure class="figure2">
-                                <img class="img-fluid" src="{{ url('/') }}/public/assets/images/ida-detection.gif" alt="IDA Detection">
-                            </figure>
+                        <div class="text-center d-none">
+                            <a href="{{ route('home') }}" class="btn btn-success">@lang('health-status.Save')</a>
+                        </div>  
+                    @else
+                        <div class="row justify-content-center bmiShow">
+                            <div class="col-md-4">
+                                <div class="card bg-info mb-4 d-inline-block">
+                                    <div class="card-body">
+                                        <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
+                                        
+                                        <h3 class="text-center mb-0 text-white"><span class="bmi-result">{{number_format(Session::get('data'),2) }}</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-right">
+                                <figure class="figure2">
+                                    <img class="img-fluid" src="{{ url('/') }}/public/assets/images/ida-detection.gif" alt="IDA Detection">
+                                </figure>
+                            </div>
                         </div>
-                    </div>
-                    <div class="text-center">
-                        <a href="{{ route('home') }}" class="btn btn-success">@lang('health-status.Save')</a>
-                    </div>
+                        <div class="text-center">
+                            <a href="{{ route('home') }}" class="btn btn-success">@lang('health-status.Save')</a>
+                        </div> 
+                    @endif
                 </div>
             </div>
         </div>
