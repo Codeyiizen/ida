@@ -19,7 +19,7 @@
                             </li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for')<span class="brand-color">@lang('disease-management-through-diet.non')</span></h1>
+                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for') <span class="brand-color">@lang('disease-management-through-diet.non')</span></h1>
                     <h3 class="text-center mb-4">@lang('disease-management-through-diet.Day2')</h3>
                     <div class="row">
                         <div class="col-md-8 offset-md-2">

@@ -13,7 +13,7 @@ return [
     |
     */
     
-    'sign' =>'Sign and Symptoms of iron',
+    'sign' =>'Sign and Symptoms of Iron Deficiency Anaemia',
     'Dizziness' =>'Dizziness and Tiredness',
     'Unusual'   =>'Unusual Heartbeat',
     'Shortness' =>'Shortness of breath',
@@ -39,7 +39,7 @@ return [
     'may'=>'If the body may not be getting enough oxygen due to a lack of haemoglobin in the blood, which can cause feelings of fatigue, weakness, and malaise, and may reduce the desire to eat.',  
     'Iron' =>'Iron deficiency anaemia can lead to gastrointestinal symptoms such as abdominal pain, nausea, and vomiting, which may also contribute to a loss of appetite.',   
     'eyelid'=>'Whiteness in the inner portion of the eyelid', 
-    'inner' =>'whitening of the inner portion of the eyelid, known as palpebral conjunctiva, This is due to decrease in the production of haemoglobin, which is responsible for carrying oxygen to the tissues of the body. Without enough haemoglobin, the tissues, including the conjunctiva, become pale or white.', 
+    'inner' =>'Whitening of the inner portion of the eyelid, known as palpebral conjunctiva, This is due to decrease in the production of haemoglobin, which is responsible for carrying oxygen to the tissues of the body. Without enough haemoglobin, the tissues, including the conjunctiva, become pale or white.', 
     'nail'=>'Brittle nail (spoon shaped nail)',  
     'cause'=>'Iron is important for healthy nail growth, and a lack
           of iron in the body can cause nails to become brittle and break easily.', 

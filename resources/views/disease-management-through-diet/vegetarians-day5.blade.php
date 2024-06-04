@@ -17,7 +17,7 @@
                             <li class="breadcrumb-item active" aria-current="page">@lang('disease-management-through-diet.diet')</li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for')<span class="brand-color">@lang('disease-management-through-diet.Vegetarians')</span></h1>
+                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for') <span class="brand-color">@lang('disease-management-through-diet.Vegetarians')</span></h1>
                     <h3 class="text-center mb-4">@lang('disease-management-through-diet.day5')</h3>
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
@@ -39,7 +39,7 @@
                                             <h5>@lang('disease-management-through-diet.mid')</h5>
                                             <ul class="list-unstyled list-unordered">
                                                 <li>@lang('disease-management-through-diet.coconut')</li>
-                                                <li>@lang('disease-management-through-diet.eache')</li>
+                                                <!-- <li>@lang('disease-management-through-diet.eache')</li> -->
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
@@ -47,7 +47,7 @@
                                             <ul class="list-unstyled list-unordered">
                                                 <li>@lang('disease-management-through-diet.Roti2')
                                                 <li>@lang('disease-management-through-diet.rajma')</li>
-                                                <li>@lang('disease-management-through-diet.beetroott')</li>
+                                                <li>@lang('disease-management-through-diet.salad2')</li>
                                                 <li>@lang('disease-management-through-diet.pudinaa')</li>
                                             </ul>
                                         </div>

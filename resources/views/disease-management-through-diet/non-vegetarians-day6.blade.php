@@ -18,7 +18,7 @@
                             </li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for')<span class="brand-color"> @lang('disease-management-through-diet.non')</span></h1>
+                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for') <span class="brand-color"> @lang('disease-management-through-diet.non')</span></h1>
                     <h3 class="text-center mb-4">@lang('disease-management-through-diet.day6')</h3>
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
@@ -57,13 +57,13 @@
                                             <h5> @lang('disease-management-through-diet.snacks')</h5>
                                             <ul class="list-unstyled list-unordered">
                                                 <li>@lang('disease-management-through-diet.Glass')</li>
-                                                <li>@lang('disease-management-through-diet.brownie')</li>
+                                                <li>@lang('disease-management-through-diet.5Snacks_2')</li>
                                             </ul>
                                         </div>
                                         <div class="diet-chart-item">
                                             <h5>@lang('disease-management-through-diet.Dinner')</h5>
                                             <ul class="list-unstyled list-unordered">
-                                                <li>@lang('disease-management-through-diet.gish')</sli>
+                                                <li>@lang('disease-management-through-diet.Fish')</sli>
                                                 <li>@lang('disease-management-through-diet.Roti2')</li>
                                                 <li>@lang('disease-management-through-diet.salad')</li>
                                                 <li>@lang('disease-management-through-diet.waters')</li>

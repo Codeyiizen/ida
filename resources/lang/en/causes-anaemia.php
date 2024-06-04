@@ -16,7 +16,7 @@ return [
     'title' => 'Causes of Iron Deficiency Anaemia',
     'Lack' =>'Lack of iron rich diet',
     'Pregnancy' =>'Pregnancy',
-    'Diseases' => 'Diseases and Disease Treatments',
+    'Diseases' => 'Specific Diseases and Treatment',
     'Blood' =>'Blood Loss'
     
 

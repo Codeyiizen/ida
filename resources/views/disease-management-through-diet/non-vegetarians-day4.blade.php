@@ -18,7 +18,7 @@
                             </li>
                         </ol>
                     </nav>
-                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for')<span class="brand-color"> @lang('disease-management-through-diet.non')</span></h1>
+                    <h1 class="h2 mb-3">@lang('disease-management-through-diet.for') <span class="brand-color"> @lang('disease-management-through-diet.non')</span></h1>
                     <h3 class="text-center mb-4">@lang('disease-management-through-diet.day4')</h3>
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
@@ -34,7 +34,7 @@
                                         </div>
                                         <div class="diet-chart-item">
                                             <h5>@lang('disease-management-through-diet.Breakfast')</h5>
-                                            <p>@lang('disease-management-through-diet.bajrat')</p>
+                                            <p>@lang('disease-management-through-diet.bajratt')</p>
                                         </div>
                                         <div class="diet-chart-item">
                                             <h5>@lang('disease-management-through-diet.mid')</h5>
@@ -45,7 +45,7 @@
                                             <ul class="list-unstyled list-unordered">
                                                 <li>@lang('disease-management-through-diet.red')</li>
                                                 <li>@lang('disease-management-through-diet.cabbage')</li>
-                                                <li> @lang('disease-management-through-diet.beetroott')</li>
+                                                <li> @lang('disease-management-through-diet.beetroottt')</li>
                                                 <li>@lang('disease-management-through-diet.Roti2')</li>
                                                 <li>@lang('disease-management-through-diet.Rice')</li>
                                             </ul>

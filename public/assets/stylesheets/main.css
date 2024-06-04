@@ -785,6 +785,10 @@ h6,
     padding: 60px 0 70px;
 }
 
+/* .section p{
+    text-align: justify;
+} */
+
 .section figure {
     display: block;
 }
@@ -2798,21 +2802,88 @@ ol.list-ordered li:before {
 }
 
 @media screen and (min-width:768px) {
-    .causes-anaemia-container {
-        max-width: 75%;
-    }
-
     .list-causes-anaemia li a {
         font-size: 1.15rem;
     }
 }
 
 @media screen and (min-width:992px) {
-    /* .causes-anaemia-container {
+    .causes-anaemia-container {
         max-width: 75%;
-    } */
+    }
 
     .list-causes-anaemia li a {
         font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width:767px){
+    .causes-anaemia-container .heading-circle {
+        width: 135px;
+        height: 135px;
+    }
+
+    .causes-anaemia-container .heading-circle h5{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:575px){
+    .causes-anaemia-container .heading-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .causes-anaemia-container .heading-circle h5{
+        font-size: .875rem;
+    }
+
+    .list-causes-anaemia li:first-child:before, .list-causes-anaemia li:first-child:after, .list-causes-anaemia li:last-child:before, .list-causes-anaemia li:last-child:after{
+        width: 43%;
+    }
+
+    .list-causes-anaemia li:nth-child(2),
+    .list-causes-anaemia li:nth-child(3){
+        position: relative;
+    }
+
+    .list-causes-anaemia li:nth-child(2){
+        left: -2rem;
+    }
+
+    .list-causes-anaemia li:nth-child(3){
+        right: -2rem;
+    }
+
+    .list-causes-anaemia li:nth-child(2) a,
+    .list-causes-anaemia li:nth-child(3) a{
+        max-width: 120px;
+        min-height: 100px;
+    }
+
+    .list-causes-anaemia li:first-child:before {
+        left: 47%;
+        transform: rotate(55deg);
+    }
+
+    .list-causes-anaemia li:first-child:after {
+        right: 47%;
+        transform: rotate(-55deg);
+    }
+
+    .list-causes-anaemia li:last-child:before {
+        left: 47%;
+        transform: rotate(122deg);
+    }
+
+    .list-causes-anaemia li:last-child:after {
+        right: 47%;
+        transform: rotate(-122deg);
+    }
+
+    .list-causes-anaemia li a{
+        max-width: 150px;
+        min-height: 120px;
+        font-size: 1rem;
     }
 }
