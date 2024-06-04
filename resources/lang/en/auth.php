@@ -53,7 +53,7 @@ return [
    
    'cardOne_H4' =>'Know Iron Deficiency Anaemia',   
    'cardOne_P' => 'Iron deficiency anemia occurs when the body does not have enough iron to produce sufficient hemoglobin',
-   'cardTwo_H4' => 'Causes of Anaemia',
+   'cardTwo_H4' => 'Causes of Iron Deficiency Anaemia',
    'cardThree_H4' => 'Symptoms of Iron Deficiency Anaemia',
    'cardThree_P' => 'Both dizziness and tiredness is a common symptom of iron deficiency anaemia because the body cells are not getting enough',
    'cardFour_H4' => 'Prevention of Iron Deficiency Anaemia',

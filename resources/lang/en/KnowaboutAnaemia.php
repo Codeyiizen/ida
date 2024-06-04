@@ -15,11 +15,11 @@ return [
     
     'title' =>'Know about Anaemia',
     'an'    =>'An (without) -aemia (blood).(Shortage of iron in the body)',
-    'Anaemia'    =>'Anaemia can be defined as a reduction in the hemoglobin level, or red blood cell counts.',
+    'Anaemia'    =>'Anaemia can be defined as a reduction in the',
     'hemoglobin' =>'hemoglobin',
     'level'    =>'level, or',
     'red'      =>'red blood cell counts',
-    'condition'  =>'A condition of the body caused due to the deficiency of essential nutrients like iron, protein, vitamin B12, folic acid etc. Although there are various forms of anemia, the most prevalent type is ir',
+    'condition'  =>'A condition of the body caused due to the deficiency of essential nutrients like iron, protein, vitamin B12, folic acid etc. Although there are various forms of anemia, the most prevalent type is iron-deficiency anemiaCauses of Anaemia',
     'Iron'     =>'Iron Deficiency Anaemia',
     'deficiency'     =>'Iron deficiency anemia occurs when the body does not have enough iron to produce sufficient hemoglobin. ',
     'happen'  =>'This can happen due to a variety of reasons, including inadequate dietary intake, malabsorption of iron in the digestive tract, increased blood loss (due to menstruation or gastrointestinal bleeding), or increased iron requirements (during pregnancy, breastfeeding or growth spurts).',

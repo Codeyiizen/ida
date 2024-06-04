@@ -10,12 +10,10 @@
                             href="{{ route('disease-management-through-diet') }}">Disease management through diet</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                        @lang('disease-management-through-diet.cardThreeH4')</li>
+                        @lang('disease-management-through-diet.cardFourH4')</li>
                 </ol>
             </nav>
-            <h1 class="h2 mb-4">@lang('disease-management-through-diet.cardThreeH4')</h1>
-            <h4>@lang('disease-management-through-diet.alcohol')</h4>
-            <p>@lang('disease-management-through-diet.alcohol_p')</p>
+            <h1 class="h2 mb-4">@lang('disease-management-through-diet.cardFourH4')</h1>
             <h4>@lang('disease-management-through-diet.coffee')</h4>
             <p>@lang('disease-management-through-diet.coffee_p')</p>
             <h4>@lang('disease-management-through-diet.calcium-foods')</h4>
@@ -24,7 +22,9 @@
             <p>@lang('disease-management-through-diet.gluten-containing-foods_p')</p>
             <ul class="list-unstyled list-unordered mb-3">
                 <li>@lang('disease-management-through-diet.foods-avoid_li1')</li>
-            </ul>
+            </ul>            
+            <h4>@lang('disease-management-through-diet.alcohol')</h4>
+            <p>@lang('disease-management-through-diet.alcohol_p')</p>
         </div>
     </section>
 </div>

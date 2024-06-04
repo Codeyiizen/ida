@@ -19,7 +19,7 @@
                         </figure>
                         <div class="card-body d-flex flex-column">
                             <h4>@lang('disease-management-through-diet.cardOneH1')</h4>
-                            <p class="card-text">@lang('disease-management-through-diet.cardTwo_li6')... </p>
+                            <p class="card-text">@lang('disease-management-through-diet.cardOneP_2')... </p>
                             <div class="btn-container mt-auto mb-0">
                                 <a href="{{ route('locally-available-iron-vitamin-rich-food') }}"
                                     class="btn btn-primary">@lang('auth.read-more')</a>
@@ -65,7 +65,7 @@
                         </figure>
                         <div class="card-body d-flex flex-column">
                             <h4>@lang('disease-management-through-diet.cardFourH4')</h4>
-                            <p class="card-text">@lang('disease-management-through-diet.alcohol_p')...</p>
+                            <p class="card-text">@lang('disease-management-through-diet.coffee_p')...</p>
                             <div class="btn-container mt-auto mb-0">
                                 <a href="{{ route('foods-avoid') }}" class="btn btn-primary">@lang('auth.read-more')</a>
                             </div>

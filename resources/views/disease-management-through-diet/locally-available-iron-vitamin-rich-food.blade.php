@@ -9,7 +9,7 @@
                     <li class="breadcrumb-item" aria-current="page"><a
                             href="{{ route('disease-management-through-diet') }}">Disease management through diet</a>
                     </li>
-                    <li class="breadcrumb-item active" aria-current="page">@lang('disease-management-through-diet.cardOneH2')</li>
+                    <li class="breadcrumb-item active" aria-current="page">@lang('disease-management-through-diet.cardOneH1')</li>
                 </ol>
             </nav>
             <h1 class="h2 mb-4">@lang('disease-management-through-diet.cardOneH1')</h1>

@@ -20,7 +20,7 @@
                     <img class="img-fluid alignright" src="{{ url('/') }}/public/assets/images/prevention-anaemia/eat-diet-rich-iron.gif"
                     alt="Eat a diet rich in iron">
                     <ul class="list-unstyled list-unordered mb-3">
-                        <li>@lang('prevention-anaemia.Include')/li>
+                        <li>@lang('prevention-anaemia.Include')</li>
                         <li>@lang('prevention-anaemia.pulses')</li>
                         <li>@lang('prevention-anaemia.women')
                         </li>

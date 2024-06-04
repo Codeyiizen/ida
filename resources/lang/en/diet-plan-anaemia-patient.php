@@ -14,7 +14,7 @@ return [
     */
 
     '1week-diet-plan' => '1 week diet plan for anaemia patient',
-    '1week-diet-plan_p' => 'To recover from anemia quickly, we create a diet plan that includes iron-rich food items. All food items are listed in this meal plan for iron deficiency anaemia are easily available in the local market. We also list those food items which should be avoided while following this diet meal plan.',
+    '1week-diet-plan_p' => 'To recover from iron deficiency anaemia, a one week diet plan is created that includes iron-rich food items. All food items that are listed here are easily available in local market. Food items that should be avoided while following this diet plan are also mentioned here.',
    
     'day' => 'Day',
     'vegetarian' => 'vegetarian',
