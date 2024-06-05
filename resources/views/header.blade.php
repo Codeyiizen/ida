@@ -40,10 +40,10 @@
                             <h4 class="mb-0 ml-3 d-inline-block text-white">@lang('auth.logoText')</h4>
                         </div>
                     </div>
-                    <div class="col-lg-7 d-lg-flex justify-content-lg-end align-items-lg-center">
+                    <div class="col-lg-7 d-lg-flex justify-content-lg-end align-items-lg-center px-0 px-md-3">
                         <!-- <div class="mobile-menu clearfix"></div> -->
                         <nav id="main-menu">
-                            <button type="button" class="menu-btn menu-btn1">
+                            <button type="button" class="menu-btn">
                                 <span class="line"></span>
                                 <span class="line"></span>
                                 <span class="line"></span>

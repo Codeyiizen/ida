@@ -1499,31 +1499,53 @@ body.open-menu .menu-btn span:nth-child(2n) {
 }
 
 @media (max-width:991px) {
-    #main-menu {
+   #main-menu {
         position: relative;
     }
 
     .menu-btn {
         display: block;
         position: absolute;
-        right: 0;
+        right: 1rem;
         top: -2.85rem;
     }
 
      #main-menu ul {
         display: none;
+        position: absolute;
+        width: 100%;
+        background: var(--primary);
+        z-index: 99;
+        padding-bottom: 1rem;
+    }    
+
+    #main-menu ul::before,  #main-menu ul::after{
+        position: absolute;
+        width: 200px;
+        height: 100%;
+        top: 0;
+        content: '';
+        background: var(--primary);
     }
+
+    #main-menu ul::before{
+       left: -160px;
+    }
+
+    #main-menu ul::after{
+        right: -160px;
+     }
 
     #main-menu ul li{
         text-align: center;
     }
-
-    /*body.open-menu #main-menu ul {
-        display: block;
-    } */
 }
 
-
+@media (max-width:575px) {
+    .menu-btn {
+        top: -3rem;
+    }
+}
 
 /*
 * Mobile-menu

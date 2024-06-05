@@ -48,21 +48,9 @@ $(document).ready(function () {
 });
 
 $(window).load(function () {
-  $(".menu-btn").on("click", function () { 
+  $(".menu-btn").on("click", function () {
     $("body").toggleClass("open-menu");
-
-    // $('#main-menu ul').slideUp();
-    $('#main-menu ul').slideDown();
-
-    return false;
-  });
-
-  $(".menu-btn1").on("click", function () { 
-    $("body").toggleClass("open-menu");
-
-    $('#main-menu ul').slideUp();
-   // $('#main-menu ul').slideDown();
-
+    $('#main-menu ul').slideToggle("slow");
     return false;
   });
 });
