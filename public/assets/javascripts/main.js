@@ -4,10 +4,10 @@ $(document).ready(function () {
   };
 
   // Main-menu
-  $('#main-menu').meanmenu({
-    meanScreenWidth: "991",
-    meanMenuContainer: '.mobile-menu',
-  });
+  // $('#main-menu').meanmenu({
+  //   meanScreenWidth: "991",
+  //   meanMenuContainer: '.mobile-menu',
+  // });
 
   // when the modal is opened autoplay it  
   $('#myModal').on('shown.bs.modal', function (e) {
@@ -47,13 +47,33 @@ $(document).ready(function () {
   });
 });
 
+$(window).load(function () {
+  $(".menu-btn").on("click", function () { 
+    $("body").toggleClass("open-menu");
+
+    // $('#main-menu ul').slideUp();
+    $('#main-menu ul').slideDown();
+
+    return false;
+  });
+
+  $(".menu-btn1").on("click", function () { 
+    $("body").toggleClass("open-menu");
+
+    $('#main-menu ul').slideUp();
+   // $('#main-menu ul').slideDown();
+
+    return false;
+  });
+});
 
 
 
 
 
 
-    
+
+
 
 
 

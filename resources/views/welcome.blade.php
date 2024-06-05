@@ -68,19 +68,19 @@
                             </div>
                             <form action="{{ route('savePhone') }}" class="form mb-0" method="post">
                                 @csrf
-                                @error('mobile')
-                                <div class="alert alert-danger">                                   
-                                    @if ($lan == 'en')
-                                    The mobile field is required.  
-                                    @else
-                                    ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
-                                    @endif
-                                </div>                                
-                                @enderror
                                 <div class="form-group mb-4">
                                     <label for="phone">@lang('auth.sign2')</label>
                                     <input class="form-control" placeholder="e.g. +91 xxxx xxxx xx" type="number"
                                         name="mobile" id="phone">
+                                    @error('mobile')
+                                    <div class="text-danger mt-1 fa-sm">
+                                        @if ($lan == 'en')
+                                        The mobile field is required.
+                                        @else
+                                        ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।
+                                        @endif
+                                    </div>
+                                    @enderror
                                 </div>
                                 <!-- <a href="{{ route('health-status') }}" class="btn btn-primary btn-block">@lang('auth.login')</a> -->
                                 <button class="btn btn-primary btn-block">@lang('auth.login')</button>

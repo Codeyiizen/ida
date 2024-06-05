@@ -72,14 +72,14 @@ img.aligncenter {
 }
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     img.alignright {
         max-height: 250px;
     }
 }
 
 
-img.mh-350{
+img.mh-350 {
     max-height: 350px;
 }
 
@@ -1241,32 +1241,22 @@ h3.divider-1 {
 /*
 *  Main-nav
 */
-.mean-nav .btn {
+/* .mean-nav .btn {
     display: none;
-}
+} */
 
-#main-menu ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
-#main-menu ul li {
-    position: relative;
-    margin-right: 1rem;
-}
-
-#main-menu ul li .selectbox{
+#main-menu ul li .selectbox {
     display: inline-block;
 }
 
-#main-menu ul li .selectbox select{
-  cursor: pointer;
-  color: #fff;
-  background-color: var(--primary);
+#main-menu ul li .selectbox select {
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--primary);
 }
 
-#main-menu ul li .selectbox select:focus{
+#main-menu ul li .selectbox select:focus {
     box-shadow: none;
     outline: none;
     border: 0;
@@ -1418,7 +1408,18 @@ h3.divider-1 {
     }   
    
 }*/
+@media screen and (min-width:992px) {
+    #main-menu ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
 
+    #main-menu ul li {
+        position: relative;
+        margin-right: 1rem;
+    }
+}
 
 @media screen and (min-width:1281px) {
     #main-menu ul ul {
@@ -1426,6 +1427,102 @@ h3.divider-1 {
         width: 250px;
     }
 }
+
+/*
+* Mobile menu - Custom
+*/
+
+/*
+* open-menu
+*/
+
+.menu-btn {
+    display: none;
+    height: 32px;
+    border-radius: .25rem;
+    padding: 8px 8px 5px;
+    background: var(--white);
+    border: 0;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.menu-btn,
+.menu-btn:focus,
+.menu-btn:hover,
+.menu-btn:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.menu-btn .line {
+    display: block;
+    width: 26px;
+    height: 2px;
+    margin-bottom: 5px;
+    background: var(--primary);
+    position: relative;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+body.open-menu .menu-btn span:first-child {
+    left: 0;
+    top: 4px;
+    transform: rotate(45deg);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+body.open-menu .menu-btn span:last-child {
+    left: 0;
+    bottom: 2px;
+    transform: rotate(-45deg);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+body.open-menu .menu-btn span:nth-child(2n) {
+    display: none;
+}
+
+@media (max-width:991px) {
+    #main-menu {
+        position: relative;
+    }
+
+    .menu-btn {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -2.85rem;
+    }
+
+     #main-menu ul {
+        display: none;
+    }
+
+    #main-menu ul li{
+        text-align: center;
+    }
+
+    /*body.open-menu #main-menu ul {
+        display: block;
+    } */
+}
+
 
 
 /*
@@ -1899,8 +1996,7 @@ h3.divider-1 {
     border: 0;
     position: absolute;
     left: 1px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 1px;
 }
 
 .form-check input[type="radio"]+label::before {
@@ -2394,7 +2490,7 @@ ol.list-ordered li:before {
     background-color: #1a1a1a;
 }
 
-.diet-chart-container .diet-chart-item h5{
+.diet-chart-container .diet-chart-item h5 {
     text-align: center;
     padding: 0.625rem;
     background-color: var(--white);
@@ -2817,46 +2913,49 @@ ol.list-ordered li:before {
     }
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:767px) {
     .causes-anaemia-container .heading-circle {
         width: 135px;
         height: 135px;
     }
 
-    .causes-anaemia-container .heading-circle h5{
+    .causes-anaemia-container .heading-circle h5 {
         font-size: 1rem;
     }
 }
 
-@media screen and (max-width:575px){
+@media screen and (max-width:575px) {
     .causes-anaemia-container .heading-circle {
         width: 120px;
         height: 120px;
     }
 
-    .causes-anaemia-container .heading-circle h5{
+    .causes-anaemia-container .heading-circle h5 {
         font-size: .875rem;
     }
 
-    .list-causes-anaemia li:first-child:before, .list-causes-anaemia li:first-child:after, .list-causes-anaemia li:last-child:before, .list-causes-anaemia li:last-child:after{
+    .list-causes-anaemia li:first-child:before,
+    .list-causes-anaemia li:first-child:after,
+    .list-causes-anaemia li:last-child:before,
+    .list-causes-anaemia li:last-child:after {
         width: 43%;
     }
 
     .list-causes-anaemia li:nth-child(2),
-    .list-causes-anaemia li:nth-child(3){
+    .list-causes-anaemia li:nth-child(3) {
         position: relative;
     }
 
-    .list-causes-anaemia li:nth-child(2){
+    .list-causes-anaemia li:nth-child(2) {
         left: -2rem;
     }
 
-    .list-causes-anaemia li:nth-child(3){
+    .list-causes-anaemia li:nth-child(3) {
         right: -2rem;
     }
 
     .list-causes-anaemia li:nth-child(2) a,
-    .list-causes-anaemia li:nth-child(3) a{
+    .list-causes-anaemia li:nth-child(3) a {
         max-width: 120px;
         min-height: 100px;
     }
@@ -2881,7 +2980,7 @@ ol.list-ordered li:before {
         transform: rotate(-122deg);
     }
 
-    .list-causes-anaemia li a{
+    .list-causes-anaemia li a {
         max-width: 150px;
         min-height: 120px;
         font-size: 1rem;

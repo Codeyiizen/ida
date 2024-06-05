@@ -11,7 +11,7 @@
                 </ol>
             </nav>
             <h1 class="h2 mb-3">@lang('yoga-poses-managing-anaemia.h1')</h1>
-            <p class="mb-4">
+            <p class="mb-4 text-justify">
                 @lang('yoga-poses-managing-anaemia.p')</p>
             <div class="row text-center">
                 <div class="col-md-3">

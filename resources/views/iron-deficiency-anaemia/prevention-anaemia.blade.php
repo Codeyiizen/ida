@@ -10,10 +10,10 @@
                     </li>
                     <li class="breadcrumb-item" aria-current="page"><a href="{{ route('iron-deficiency-anaemia') }}">Iron
                             Deficiency Anaemia</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">@lang('prevention-anaemia.prevention')</li>
+                    <li class="breadcrumb-item active" aria-current="page">@lang('auth.cardFour_H4')</li>
                 </ol>
             </nav>
-            <h1 class="h2 mb-4">@lang('prevention-anaemia.prevention')</h1>
+            <h1 class="h2 mb-4">@lang('auth.cardFour_H4')</h1>
             <div class="prevention-anaemia-container d-flex justify-content-center">
                 <ul class="list-unstyled list-prevention-anaemia text-center">
                     <li><a class="hover-styled" href="{{ route ('eat-diet-rich-in-iron') }}"><span>@lang('prevention-anaemia.eat')</span></a></li>
