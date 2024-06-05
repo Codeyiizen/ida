@@ -19,9 +19,9 @@
                                         <span class="text-danger mt-4">
                                             @error('age')
                                             @if ($lan == 'en')
-                                                The mobile field is required.  
+                                                The age field is required.  
                                                 @else
-                                                ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                                ਉਮਰ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।  
                                                 @endif
                                             @enderror
                                         </span>
@@ -36,9 +36,9 @@
                                             <span class="text-danger mt-4">
                                             @error('weight')
                                               @if ($lan == 'en')
-                                                The mobile field is required.  
+                                                The weight field is required.  
                                                 @else
-                                                ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                                ਭਾਰ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ.  
                                                 @endif
                                             @enderror
                                         </span>
@@ -53,9 +53,9 @@
                                             <span class="text-danger mt-4">
                                             @error('height')
                                              @if ($lan == 'en')
-                                                The mobile field is required.  
+                                                The height field is required.  
                                                 @else
-                                                ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                                ਉਚਾਈ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ.  
                                                 @endif
                                             @enderror
                                         </span>
@@ -70,9 +70,9 @@
                                         <span class="text-danger mt-4">
                                             @error('hemoglobin')
                                             @if ($lan == 'en')
-                                                The mobile field is required.  
+                                                The hemoglobin field is required.  
                                                 @else
-                                                ਮੋਬਾਈਲ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।   
+                                                ਹੀਮੋਗਲੋਬਿਨ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ. 
                                                 @endif
                                             @enderror
                                         </span>
