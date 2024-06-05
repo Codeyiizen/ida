@@ -13,7 +13,7 @@ return [
     |
     */
     
-    'prevention' =>'Prevention of Anaemia',
+    'prevention' =>'Prevention of Iron Deficiency Anaemia',
     'eat'        =>'Eat a diet rich in iron',
     'Increase'   =>'Increase your vit C & folate intake',
     'Cook'       =>'Cook using iron pots and pans',

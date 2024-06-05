@@ -11,75 +11,75 @@
                             <form action="{{ route('calculate-bmi') }}" class="form mb-4 mb-md-0" method="post">
                                 @csrf
                                 <div class="form-group row mb-3">
-                                    <label class="col-3 form-label text-right mb-0"
+                                    <label class="col-md-3 form-label text-md-right mb-md-0"
                                         for="age">@lang('health-status.age')</label>
-                                    <div class="col-9">
+                                    <div class="col-md-9">
                                         <input class="form-control" placeholder="" type="number" name="age" id="age"
                                             min="18" max="100">
-                                        <span class="text-danger mt-4">
+                                        <div class="text-danger mt-1 fa-sm">
                                             @error('age')
                                             @if ($lan == 'en')
-                                                The age field is required.  
-                                                @else
-                                                ਉਮਰ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।  
-                                                @endif
+                                            The age field is required.
+                                            @else
+                                            ਉਮਰ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ।
+                                            @endif
                                             @enderror
-                                        </span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right mb-0"
+                                    <label class="col-md-3 form-label text-md-right mb-md-0"
                                         for="age">@lang('health-status.Weight')</label>
-                                    <div class="col-9">
+                                    <div class="col-md-9">
                                         <input class="form-control" placeholder="" type="number" name="weight"
                                             id="weight" min="1" max="200">
-                                            <span class="text-danger mt-4">
+                                        <div class="text-danger mt-1 fa-sm">
                                             @error('weight')
-                                              @if ($lan == 'en')
-                                                The weight field is required.  
-                                                @else
-                                                ਭਾਰ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ.  
-                                                @endif
+                                            @if ($lan == 'en')
+                                            The weight field is required.
+                                            @else
+                                            ਭਾਰ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ.
+                                            @endif
                                             @enderror
-                                        </span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right mb-0"
+                                    <label class="col-md-3 form-label text-md-right mb-md-0"
                                         for="height">@lang('health-status.Height')</label>
-                                    <div class="col-9">
-                                        <input class="form-control" placeholder=""  name="height"
-                                            id="height">
-                                            <span class="text-danger mt-4">
+                                    <div class="col-md-9">
+                                        <input class="form-control" placeholder="" name="height" id="height">
+                                        <div class="text-danger mt-1 fa-sm">
                                             @error('height')
-                                             @if ($lan == 'en')
-                                                The height field is required.  
-                                                @else
-                                                ਉਚਾਈ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ.  
-                                                @endif
+                                            @if ($lan == 'en')
+                                            The height field is required.
+                                            @else
+                                            ਉਚਾਈ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ.
+                                            @endif
                                             @enderror
-                                        </span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right"
+                                    <label class="col-md-3 form-label text-md-right mb-md-0"
                                         for="hemoglobin">@lang('health-status.Hemoglobin')</label>
-                                    <div class="col-9">
+                                    <div class="col-md-9">
                                         <input class="form-control" placeholder="" type="number" name="hemoglobin"
                                             id="hemoglobin">
-                                        <span class="text-danger mt-4">
+                                        <div class="text-danger mt-1 fa-sm">
                                             @error('hemoglobin')
                                             @if ($lan == 'en')
-                                                The hemoglobin field is required.  
-                                                @else
-                                                ਹੀਮੋਗਲੋਬਿਨ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ. 
-                                                @endif
+                                            The hemoglobin field is required.
+                                            @else
+                                            ਹੀਮੋਗਲੋਬਿਨ ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ.
+                                            @endif
                                             @enderror
-                                        </span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
-                                    <label class="col-3 form-label text-right">@lang('health-status.Symptoms')</label>
+                                    <label class="col-md-3 form-label text-md-right mb-md-0">
+                                        @lang('health-status.Symptoms')</label>
                                     <div class="col-9 form-group mb-0">
                                         <div class="form-check">
                                             <input type="radio" id="dizziness-tiredness" name="symptoms"
@@ -151,49 +151,52 @@
                             </form>
                         </div>
                     </div>
-                    <hr />
                     @if (Session::get('data') == '')
-                        <div class="row justify-content-center bmiShow d-none">
-                            <div class="col-md-4">
-                                <div class="card bg-info mb-4 d-inline-block">
-                                    <div class="card-body">
-                                        <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
-                                        
-                                        <h3 class="text-center mb-0 text-white"><span class="bmi-result">{{Session::get('data')}}</span>
-                                        </h3>
-                                    </div>
+                    <div class="row justify-content-center bmiShow d-none">
+                        <div class="col-md-4 text-center text-md-left">
+                            <div class="card bg-info mb-4 d-inline-block">
+                                <div class="card-body">
+                                    <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
+                                    <h3 class="text-center mb-0 text-white"><span
+                                            class="bmi-result">{{Session::get('data')}}</span>
+                                    </h3>
                                 </div>
                             </div>
-                            <div class="col-md-4 text-right">
-                                <figure class="figure2">
-                                    <img class="img-fluid" src="{{ url('/') }}/public/assets/images/ida-detection.gif" alt="IDA Detection">
-                                </figure>
-                            </div>
                         </div>
-                        <div class="text-center d-none">
-                            <a href="{{ route('home') }}" class="btn btn-success">@lang('health-status.Save')</a>
-                        </div>  
+                        <div class="col-md-4 text-right">
+                            <figure class="figure2">
+                                <img class="img-fluid" src="{{ url('/') }}/public/assets/images/ida-detection.gif"
+                                    alt="IDA Detection">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="text-center d-none">
+                        <a href="{{ route('home') }}" class="btn btn-success">@lang('health-status.Save')</a>
+                    </div>
                     @else
-                        <div class="row justify-content-center bmiShow">
-                            <div class="col-md-4">
-                                <div class="card bg-info mb-4 d-inline-block">
-                                    <div class="card-body">
-                                        <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
-                                        
-                                        <h3 class="text-center mb-0 text-white"><span class="bmi-result">{{number_format(Session::get('data'),2) }}</span>
-                                        </h3>
-                                    </div>
+                    <hr />
+                    <div class="row justify-content-center bmiShow">
+                        <div class="col-md-4 text-center text-md-left">
+                            <div class="card bg-info mb-4 d-inline-block">
+                                <div class="card-body">
+                                    <h4 class="text-center text-white">@lang('health-status.BMI')</h4>
+                                    <h3 class="text-center mb-0 text-white"><span
+                                            class="bmi-result">{{number_format(Session::get('data'),2) }}
+                                        </span>
+                                    </h3>
                                 </div>
                             </div>
-                            <div class="col-md-4 text-right">
-                                <figure class="figure2">
-                                    <img class="img-fluid" src="{{ url('/') }}/public/assets/images/ida-detection.gif" alt="IDA Detection">
-                                </figure>
-                            </div>
                         </div>
-                        <div class="text-center">
-                            <a href="{{ route('home') }}" class="btn btn-success">@lang('health-status.Save')</a>
-                        </div> 
+                        <div class="col-md-4 text-right">
+                            <figure class="figure2">
+                                <img class="img-fluid" src="{{ url('/') }}/public/assets/images/ida-detection.gif"
+                                    alt="IDA Detection">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="{{ route('home') }}" class="btn btn-success">@lang('health-status.Save')</a>
+                    </div>
                     @endif
                 </div>
             </div>
